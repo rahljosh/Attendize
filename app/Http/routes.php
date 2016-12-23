@@ -714,10 +714,14 @@ Route::group(['middleware' => ['auth', 'first.run']], function () {
     });
 });
 
-Route::get('/', function () {
+
+Route::get('/', 'PagesController@index');
+
+
+//Redirect
+Route::get('/admin',function () {
     return Redirect::route('showSelectOrganiser');
 });
-
 Route::get('/terms_and_conditions', [
     'as' => 'termsAndConditions',
     function () {
