@@ -12,7 +12,7 @@
                 <div class="header-text white text-center text-uppercase">
 
                     <div class="row">
-                        <img src="assets/media/logo/club-charleys-logo.jpg" alt="Club Charley's Logo" class="img-responsive">
+                        <img src="assets/media/logo/club-charleys-logo.jpg" alt="Club Charley's Logo" class="">
                         <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
                             <h1 class="titlebg pddn-20-top pddn-20-btm"> Southeast Idaho's ONLY gay bar where Respect is the # 1 rule and everyone is welcome.</h1>
                         </div>
@@ -38,37 +38,37 @@
 <!-- /.Header -->
 
 <!-- Event Features -->
-<section id="event-features">
-    <div class="container">
-        <div class="row">
-            <!-- Feature 01 -->
-            <div class="col-md-3 col-sm-6  col-xs-6"> <img src="assets/media/icons/svgs/ideas.svg" width="49" height="80" class="img-responsive" alt="Ideas" />
-                <h2 class="accent">Events</h2>
-                <p> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. </p>
-            </div>
-            <!-- /.Feature 01 -->
-            <!-- Feature 02 -->
-            <div class="col-md-3 col-sm-6  col-xs-6"> <img src="assets/media/icons/svgs/discussions.svg" width="76" height="80" class="img-responsive" alt="Discussions" />
-                <h2 class="accent">Angels</h2>
-                <p> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. </p>
-            </div>
-            <!-- /.Feature 02 -->
-            <!-- Feature 03 -->
-            <div class="col-md-3 col-sm-6  col-xs-6"> <img src="assets/media/icons/svgs/exhibitions.svg" width="76" height="80" class="img-responsive" alt="Exhibitions" />
-                <h2 class="accent">Specials</h2>
-                <p> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. </p>
-            </div>
-            <!-- /.Feature 03 -->
-            <!-- Feature 04 -->
-            <div class="col-md-3 col-sm-6  col-xs-6"> <img src="assets/media/icons/svgs/workshops.svg" width="70" height="70" class="img-responsive" alt="Workshops" />
-                <h2 class="accent">Location</h2>
-                <p> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. </p>
-            </div>
-            <!-- /.Feature 04 -->
-        </div>
-    </div>
-    <!-- /.container -->
-</section>
+{{--<section id="event-features">--}}
+    {{--<div class="container">--}}
+        {{--<div class="row">--}}
+            {{--<!-- Feature 01 -->--}}
+            {{--<div class="col-md-3 col-sm-6  col-xs-6"> <img src="assets/media/icons/svgs/ideas.svg" width="49" height="80" class="img-responsive" alt="Ideas" />--}}
+                {{--<h2 class="accent">Events</h2>--}}
+                {{--<p> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. </p>--}}
+            {{--</div>--}}
+            {{--<!-- /.Feature 01 -->--}}
+            {{--<!-- Feature 02 -->--}}
+            {{--<div class="col-md-3 col-sm-6  col-xs-6"> <img src="assets/media/icons/svgs/discussions.svg" width="76" height="80" class="img-responsive" alt="Discussions" />--}}
+                {{--<h2 class="accent">Angels</h2>--}}
+                {{--<p> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. </p>--}}
+            {{--</div>--}}
+            {{--<!-- /.Feature 02 -->--}}
+            {{--<!-- Feature 03 -->--}}
+            {{--<div class="col-md-3 col-sm-6  col-xs-6"> <img src="assets/media/icons/svgs/exhibitions.svg" width="76" height="80" class="img-responsive" alt="Exhibitions" />--}}
+                {{--<h2 class="accent">Specials</h2>--}}
+                {{--<p> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. </p>--}}
+            {{--</div>--}}
+            {{--<!-- /.Feature 03 -->--}}
+            {{--<!-- Feature 04 -->--}}
+            {{--<div class="col-md-3 col-sm-6  col-xs-6"> <img src="assets/media/icons/svgs/workshops.svg" width="70" height="70" class="img-responsive" alt="Workshops" />--}}
+                {{--<h2 class="accent">Location</h2>--}}
+                {{--<p> Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. </p>--}}
+            {{--</div>--}}
+            {{--<!-- /.Feature 04 -->--}}
+        {{--</div>--}}
+    {{--</div>--}}
+    {{--<!-- /.container -->--}}
+{{--</section>--}}
 <!-- /.Event Features -->
 
 <!-- Angels -->
