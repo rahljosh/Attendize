@@ -36,7 +36,8 @@
     @yield('header')
 </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
     <div id="app">
         @include('Public.Bar.layouts.navbar')
 

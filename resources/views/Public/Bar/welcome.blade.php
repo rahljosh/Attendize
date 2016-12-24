@@ -12,7 +12,7 @@
                 <div class="header-text white text-center text-uppercase">
 
                     <div class="row">
-                        <img src="assets/media/logo/club-charleys-logo.jpg" alt="Club Charley's Logo" class="">
+                        <img src="assets/media/logo/club-charleys-logo.jpg" alt="Club Charley's Logo" class="img-responsive" style="display:inline-block;">
                         <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
                             <h1 class="titlebg pddn-20-top pddn-20-btm"> Southeast Idaho's ONLY gay bar where Respect is the # 1 rule and everyone is welcome.</h1>
                         </div>
@@ -26,9 +26,7 @@
                 </div>
                 <!-- /.Heading Title Area -->
 
-                <!-- Animated Arrow -->
-                <div class="arrow text-center"> <i class="fa fa-angle-down fa-4x"></i> </div>
-                <!-- /.Animated Arrow -->
+
 
             </div>
         </div>

@@ -716,6 +716,7 @@ Route::group(['middleware' => ['auth', 'first.run']], function () {
 
 
 Route::get('/', 'PagesController@index');
+Route::get('/angels', 'PagesController@angels');
 
 
 //Redirect

@@ -90,4 +90,15 @@ class PagesController extends Controller
     {
         //
     }
+
+    /**
+     * Show angels details
+     *
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function angels()
+    {
+       return view('/Public/Bar/angels');
+    }
 }
