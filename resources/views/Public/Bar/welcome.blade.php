@@ -210,7 +210,7 @@
     <!-- Speaker CTA Button -->
     <div class="row">
         <div class="col-md-12">
-            <p class="mrgn-50-top text-center"><a href="http://chucks.dev/o/1" class="btn btn-main-ghost">View All Upcoming Events</a></p>
+            <p class="mrgn-50-top text-center"><a href="/o/1" class="btn btn-main-ghost">View All Upcoming Events</a></p>
         </div>
     </div>
     <!-- /.Speaker CTA Button -->
@@ -285,86 +285,86 @@
 </section>
 <!-- /.Schedule Timeline -->
 
-<!-- Section Pricing -->
-<section id="pricing">
-    <div class="container">
-        <!-- Title & Subtitle -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title-white">
-                    <h2 class="text-center"><span>Registration</span></h2>
-                    <p class="subtitle white text-center">Satisne ergo pudori consulat, si quis sine teste libidini pareat</p>
-                    <p class="subtitle text-center"><i class="fa fa-angle-down fa-lg white"></i></p>
-                </div>
-            </div>
-        </div>
-        <!-- /.Title & Subtitle -->
+{{--<!-- Section Pricing -->--}}
+{{--<section id="pricing">--}}
+    {{--<div class="container">--}}
+        {{--<!-- Title & Subtitle -->--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-md-12">--}}
+                {{--<div class="section-title-white">--}}
+                    {{--<h2 class="text-center"><span>Registration</span></h2>--}}
+                    {{--<p class="subtitle white text-center">Satisne ergo pudori consulat, si quis sine teste libidini pareat</p>--}}
+                    {{--<p class="subtitle text-center"><i class="fa fa-angle-down fa-lg white"></i></p>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<!-- /.Title & Subtitle -->--}}
 
-        <!-- Pricing Passes -->
-        <div class="row">
-            <div class="col-sm-4">
-                <!-- Pricing Pass 01 -->
-                <div class="white-bg">
-                    <div class="ribbon-wrapper-dark">
-                        <div class="ribbon-dark">Early Bird</div>
-                    </div>
-                    <h3 class="text-uppercase text-center pddn-20-top pddn-10-btm">Design Pass</h3>
-                    <div class="accent-bg pddn-20-top-btm text-center">
-                        <p class="price">$<span class="text-bigger">358</span></p>
-                    </div>
-                    <ul class="list-pricing">
-                        <li>Attend the design show </li>
-                        <li>Access to all lectures </li>
-                        <li>A choice of 1 workshop</li>
-                    </ul>
-                    <p class=" pddn-20-btm text-center"><a href="#" class="btn btn-main-ghost">Book a Ticket</a></p>
-                </div>
-                <!-- /.Pricing Pass 01 -->
-            </div>
-            <div class="col-sm-4">
-                <!-- Pricing Pass 02 -->
-                <div class="white-bg">
-                    <div class="ribbon-wrapper-dark">
-                        <div class="ribbon-dark">Early Bird</div>
-                    </div>
-                    <h3 class="text-uppercase text-center pddn-20-top pddn-10-btm">Tech Pass</h3>
-                    <div class="accent-bg pddn-20-top-btm text-center">
-                        <p class="price">$<span class="text-bigger">545</span></p>
-                    </div>
-                    <ul class="list-pricing">
-                        <li>Attend the tech show </li>
-                        <li>Access to all lectures </li>
-                        <li>A choice of 3 workshop</li>
-                    </ul>
-                    <p class=" pddn-20-btm text-center"><a href="#" class="btn btn-main-ghost">Book a Ticket</a></p>
-                </div>
-                <!-- /.Pricing Pass 02 -->
-            </div>
-            <div class="col-sm-4">
-                <!-- Pricing Pass 03 -->
-                <div class="white-bg">
-                    <div class="ribbon-wrapper-dark">
-                        <div class="ribbon-dark">Early Bird</div>
-                    </div>
-                    <h3 class="text-uppercase text-center pddn-20-top pddn-10-btm">Ultimate Pass</h3>
-                    <div class="accent-bg pddn-20-top-btm text-center">
-                        <p class="price">$<span class="text-bigger">850</span></p>
-                    </div>
-                    <ul class="list-pricing">
-                        <li>Attend both shows </li>
-                        <li>Access to all lectures </li>
-                        <li>Access to all workshops</li>
-                    </ul>
-                    <p class=" pddn-20-btm text-center"><a href="#" class="btn btn-main-ghost">Book a Ticket</a></p>
-                </div>
-                <!-- /.Pricing Pass 03 -->
-            </div>
-        </div>
-        <!-- /.Pricing Passes -->
-    </div>
-    <!-- /.container -->
-</section>
-<!-- /.Section Pricing -->
+        {{--<!-- Pricing Passes -->--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-sm-4">--}}
+                {{--<!-- Pricing Pass 01 -->--}}
+                {{--<div class="white-bg">--}}
+                    {{--<div class="ribbon-wrapper-dark">--}}
+                        {{--<div class="ribbon-dark">Early Bird</div>--}}
+                    {{--</div>--}}
+                    {{--<h3 class="text-uppercase text-center pddn-20-top pddn-10-btm">Design Pass</h3>--}}
+                    {{--<div class="accent-bg pddn-20-top-btm text-center">--}}
+                        {{--<p class="price">$<span class="text-bigger">358</span></p>--}}
+                    {{--</div>--}}
+                    {{--<ul class="list-pricing">--}}
+                        {{--<li>Attend the design show </li>--}}
+                        {{--<li>Access to all lectures </li>--}}
+                        {{--<li>A choice of 1 workshop</li>--}}
+                    {{--</ul>--}}
+                    {{--<p class=" pddn-20-btm text-center"><a href="#" class="btn btn-main-ghost">Book a Ticket</a></p>--}}
+                {{--</div>--}}
+                {{--<!-- /.Pricing Pass 01 -->--}}
+            {{--</div>--}}
+            {{--<div class="col-sm-4">--}}
+                {{--<!-- Pricing Pass 02 -->--}}
+                {{--<div class="white-bg">--}}
+                    {{--<div class="ribbon-wrapper-dark">--}}
+                        {{--<div class="ribbon-dark">Early Bird</div>--}}
+                    {{--</div>--}}
+                    {{--<h3 class="text-uppercase text-center pddn-20-top pddn-10-btm">Tech Pass</h3>--}}
+                    {{--<div class="accent-bg pddn-20-top-btm text-center">--}}
+                        {{--<p class="price">$<span class="text-bigger">545</span></p>--}}
+                    {{--</div>--}}
+                    {{--<ul class="list-pricing">--}}
+                        {{--<li>Attend the tech show </li>--}}
+                        {{--<li>Access to all lectures </li>--}}
+                        {{--<li>A choice of 3 workshop</li>--}}
+                    {{--</ul>--}}
+                    {{--<p class=" pddn-20-btm text-center"><a href="#" class="btn btn-main-ghost">Book a Ticket</a></p>--}}
+                {{--</div>--}}
+                {{--<!-- /.Pricing Pass 02 -->--}}
+            {{--</div>--}}
+            {{--<div class="col-sm-4">--}}
+                {{--<!-- Pricing Pass 03 -->--}}
+                {{--<div class="white-bg">--}}
+                    {{--<div class="ribbon-wrapper-dark">--}}
+                        {{--<div class="ribbon-dark">Early Bird</div>--}}
+                    {{--</div>--}}
+                    {{--<h3 class="text-uppercase text-center pddn-20-top pddn-10-btm">Ultimate Pass</h3>--}}
+                    {{--<div class="accent-bg pddn-20-top-btm text-center">--}}
+                        {{--<p class="price">$<span class="text-bigger">850</span></p>--}}
+                    {{--</div>--}}
+                    {{--<ul class="list-pricing">--}}
+                        {{--<li>Attend both shows </li>--}}
+                        {{--<li>Access to all lectures </li>--}}
+                        {{--<li>Access to all workshops</li>--}}
+                    {{--</ul>--}}
+                    {{--<p class=" pddn-20-btm text-center"><a href="#" class="btn btn-main-ghost">Book a Ticket</a></p>--}}
+                {{--</div>--}}
+                {{--<!-- /.Pricing Pass 03 -->--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<!-- /.Pricing Passes -->--}}
+    {{--</div>--}}
+    {{--<!-- /.container -->--}}
+{{--</section>--}}
+{{--<!-- /.Section Pricing -->--}}
 
 <!-- Section Sponsors -->
 <section id="sponsors">
@@ -374,7 +374,7 @@
             <div class="col-md-12">
                 <div class="section-title">
                     <h2 class="text-center"><span>Your Bar Tenders</span></h2>
-                    <p class="subtitle text-center">Satisne ergo pudori consulat, si quis sine teste libidini pareat</p>
+                    <p class="subtitle text-center"></p>
                     <p class="subtitle text-center"><i class="fa fa-angle-down fa-lg"></i></p>
                 </div>
             </div>
@@ -383,8 +383,8 @@
 
         <!-- Sponsors List -->
         <div class="row">
-            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/media/sponsors/logo-client-01.png" width="230" height="150" alt="" /></div>
-            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/media/sponsors/logo-client-02.png" width="230" height="150" alt="" /></div>
+            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/joey.jpg" width="230" height="150" alt="" />Joey</div>
+            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/red.jpg" width="230" height="150" alt="" />Red</div>
             <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/media/sponsors/logo-client-03.png" width="230" height="150" alt="" /></div>
             <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/media/sponsors/logo-client-06.png" width="230" height="150" alt="" /></div>
             <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/media/sponsors/logo-client-05.png" width="230" height="150" alt="" /></div>
@@ -396,86 +396,86 @@
 </section>
 <!-- /.Section Sponsors -->
 
-<!-- Section Latest News -->
-<section id="latest-news">
-    <div class="container">
-        <!-- Title & Subtitle -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h2 class="text-center"><span>Latest News</span></h2>
-                    <p class="subtitle text-center">Satisne ergo pudori consulat, si quis sine teste libidini pareat</p>
-                    <p class="subtitle text-center"><i class="fa fa-angle-down fa-lg"></i></p>
-                </div>
-            </div>
-        </div>
-        <!-- /.Title & Subtitle -->
+{{--<!-- Section Latest News -->--}}
+{{--<section id="latest-news">--}}
+    {{--<div class="container">--}}
+        {{--<!-- Title & Subtitle -->--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-md-12">--}}
+                {{--<div class="section-title">--}}
+                    {{--<h2 class="text-center"><span>Latest News</span></h2>--}}
+                    {{--<p class="subtitle text-center">Satisne ergo pudori consulat, si quis sine teste libidini pareat</p>--}}
+                    {{--<p class="subtitle text-center"><i class="fa fa-angle-down fa-lg"></i></p>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<!-- /.Title & Subtitle -->--}}
 
-        <!-- Latest News List -->
-        <div class="row">
-            <div class="col-sm-4">
-                <!-- News Item 01 -->
-                <div class="news-item">
-                    <div class="image">
-                        <div class="date"><span class="day">19</span><span class="month">SEP</span></div>
-                        <img src="assets/media/news/latest-news-03.jpg" class="img-responsive center-block" alt="Get Early-bird Tickets"></div>
-                    <div class="details">
-                        <h3>Get Early-bird Tickets</h3>
-                        <p> Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. </p>
-                        <p><a href="latest-news.html#news-item1" class="btn btn-main-ghost btn-block">Read More</a></p>
-                    </div>
-                    <footer>
-                        <div class="views"><i class="fa fa-eye"></i> 150</div>
-                        <div class="love"><i class="fa fa-heart"></i> 33</div>
-                        <div class="comments"><i class="fa fa-comments"></i> 23</div>
-                    </footer>
-                </div>
-                <!-- /.News Item 01 -->
-            </div>
-            <div class="col-sm-4">
-                <!-- News Item 02 -->
-                <div class="news-item">
-                    <div class="image">
-                        <div class="date"><span class="day">12</span><span class="month">SEP</span></div>
-                        <img src="assets/media/news/latest-news-02.jpg" class="img-responsive center-block" alt="Speakers Announced"></div>
-                    <div class="details">
-                        <h3>Speakers Announced</h3>
-                        <p> Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. </p>
-                        <p><a href="latest-news.html#news-item2" class="btn btn-main-ghost btn-block">Read More</a></p>
-                    </div>
-                    <footer>
-                        <div class="views"><i class="fa fa-eye"></i> 150</div>
-                        <div class="love"><i class="fa fa-heart"></i> 33</div>
-                        <div class="comments"><i class="fa fa-comments"></i> 23</div>
-                    </footer>
-                </div>
-                <!-- /.News Item 02 -->
-            </div>
-            <div class="col-sm-4">
-                <!-- News Item 03 -->
-                <div class="news-item">
-                    <div class="image">
-                        <div class="date"><span class="day">05</span><span class="month">SEP</span></div>
-                        <img src="assets/media/news/latest-news-01.jpg" class="img-responsive center-block" alt="New York Web Buzz 2016"></div>
-                    <div class="details">
-                        <h3>New York Web Buzz 2016</h3>
-                        <p> Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. </p>
-                        <p><a href="latest-news.html#news-item3" class="btn btn-main-ghost btn-block">Read More</a></p>
-                    </div>
-                    <footer>
-                        <div class="views"><i class="fa fa-eye"></i> 150</div>
-                        <div class="love"><i class="fa fa-heart"></i> 33</div>
-                        <div class="comments"><i class="fa fa-comments"></i> 23</div>
-                    </footer>
-                </div>
-                <!-- /.News Item 03 -->
-            </div>
-        </div>
-        <!-- /.Latest News List -->
-    </div>
-    <!-- /.container -->
-</section>
-<!-- /.Section Latest News -->
+        {{--<!-- Latest News List -->--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-sm-4">--}}
+                {{--<!-- News Item 01 -->--}}
+                {{--<div class="news-item">--}}
+                    {{--<div class="image">--}}
+                        {{--<div class="date"><span class="day">19</span><span class="month">SEP</span></div>--}}
+                        {{--<img src="assets/media/news/latest-news-03.jpg" class="img-responsive center-block" alt="Get Early-bird Tickets"></div>--}}
+                    {{--<div class="details">--}}
+                        {{--<h3>Get Early-bird Tickets</h3>--}}
+                        {{--<p> Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. </p>--}}
+                        {{--<p><a href="latest-news.html#news-item1" class="btn btn-main-ghost btn-block">Read More</a></p>--}}
+                    {{--</div>--}}
+                    {{--<footer>--}}
+                        {{--<div class="views"><i class="fa fa-eye"></i> 150</div>--}}
+                        {{--<div class="love"><i class="fa fa-heart"></i> 33</div>--}}
+                        {{--<div class="comments"><i class="fa fa-comments"></i> 23</div>--}}
+                    {{--</footer>--}}
+                {{--</div>--}}
+                {{--<!-- /.News Item 01 -->--}}
+            {{--</div>--}}
+            {{--<div class="col-sm-4">--}}
+                {{--<!-- News Item 02 -->--}}
+                {{--<div class="news-item">--}}
+                    {{--<div class="image">--}}
+                        {{--<div class="date"><span class="day">12</span><span class="month">SEP</span></div>--}}
+                        {{--<img src="assets/media/news/latest-news-02.jpg" class="img-responsive center-block" alt="Speakers Announced"></div>--}}
+                    {{--<div class="details">--}}
+                        {{--<h3>Speakers Announced</h3>--}}
+                        {{--<p> Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. </p>--}}
+                        {{--<p><a href="latest-news.html#news-item2" class="btn btn-main-ghost btn-block">Read More</a></p>--}}
+                    {{--</div>--}}
+                    {{--<footer>--}}
+                        {{--<div class="views"><i class="fa fa-eye"></i> 150</div>--}}
+                        {{--<div class="love"><i class="fa fa-heart"></i> 33</div>--}}
+                        {{--<div class="comments"><i class="fa fa-comments"></i> 23</div>--}}
+                    {{--</footer>--}}
+                {{--</div>--}}
+                {{--<!-- /.News Item 02 -->--}}
+            {{--</div>--}}
+            {{--<div class="col-sm-4">--}}
+                {{--<!-- News Item 03 -->--}}
+                {{--<div class="news-item">--}}
+                    {{--<div class="image">--}}
+                        {{--<div class="date"><span class="day">05</span><span class="month">SEP</span></div>--}}
+                        {{--<img src="assets/media/news/latest-news-01.jpg" class="img-responsive center-block" alt="New York Web Buzz 2016"></div>--}}
+                    {{--<div class="details">--}}
+                        {{--<h3>New York Web Buzz 2016</h3>--}}
+                        {{--<p> Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. </p>--}}
+                        {{--<p><a href="latest-news.html#news-item3" class="btn btn-main-ghost btn-block">Read More</a></p>--}}
+                    {{--</div>--}}
+                    {{--<footer>--}}
+                        {{--<div class="views"><i class="fa fa-eye"></i> 150</div>--}}
+                        {{--<div class="love"><i class="fa fa-heart"></i> 33</div>--}}
+                        {{--<div class="comments"><i class="fa fa-comments"></i> 23</div>--}}
+                    {{--</footer>--}}
+                {{--</div>--}}
+                {{--<!-- /.News Item 03 -->--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<!-- /.Latest News List -->--}}
+    {{--</div>--}}
+    {{--<!-- /.container -->--}}
+{{--</section>--}}
+{{--<!-- /.Section Latest News -->--}}
 
 <!-- Section Newsletter -->
 <section id="newsletter">
