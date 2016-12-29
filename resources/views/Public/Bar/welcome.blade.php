@@ -385,10 +385,10 @@
         <div class="row">
             <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/joey.jpg" width="230" height="150" alt="" />Joey</div>
             <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/red.jpg" width="230" height="150" alt="" />Red</div>
-            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/media/sponsors/logo-client-03.png" width="230" height="150" alt="" /></div>
-            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/media/sponsors/logo-client-06.png" width="230" height="150" alt="" /></div>
-            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/media/sponsors/logo-client-05.png" width="230" height="150" alt="" /></div>
-            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/media/sponsors/logo-client-04.png" width="230" height="150" alt="" /></div>
+            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/joey.jpg" width="230" height="150" alt="" />Joey</div>
+            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/red.jpg" width="230" height="150" alt="" />Red</div>
+            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/joey.jpg" width="230" height="150" alt="" />Joey</div>
+            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/red.jpg" width="230" height="150" alt="" />Red</div>
         </div>
         <!-- /.Sponsors List -->
     </div>
@@ -517,7 +517,7 @@
     <div id="cd-zoom-in"></div>
     <div id="cd-zoom-out"></div>
     <address>
-        401 W 52nd St, New York, NY 10019, USA
+        331 E Center St, Pocatello, ID 83204, USA
     </address>
 </section>
 <!-- /.Section Location -->
@@ -526,27 +526,27 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-sm-8 col-md-9 col-lg-9">
-                <!-- Footer Menu List -->
-                <ul class="list-inline">
-                    <li><a href="#speakers">Speakers</a></li>
-                    <li><a href="#highlight">Highlights</a></li>
-                    <li><a href="#schedule">Schedule</a></li>
-                    <li><a href="#sponsors">Sponsors</a></li>
-                    <li><a href="#pricing">Tickets</a></li>
-                    <li><a href="#location">Location</a></li>
-                </ul>
-                <!-- /.Footer Menu List -->
-                <p class="copyright">Copyright <i class="fa fa-copyright"></i> 2015 - New York Web Buzz</p>
-            </div>
+            {{--<div class="col-sm-8 col-md-9 col-lg-9">--}}
+                {{--<!-- Footer Menu List -->--}}
+                {{--<ul class="list-inline">--}}
+                    {{--<li><a href="#speakers">Speakers</a></li>--}}
+                    {{--<li><a href="#highlight">Highlights</a></li>--}}
+                    {{--<li><a href="#schedule">Schedule</a></li>--}}
+                    {{--<li><a href="#sponsors">Sponsors</a></li>--}}
+                    {{--<li><a href="#pricing">Tickets</a></li>--}}
+                    {{--<li><a href="#location">Location</a></li>--}}
+                {{--</ul>--}}
+                {{--<!-- /.Footer Menu List -->--}}
+                {{--<p class="copyright white ">Copyright <i class="fa fa-copyright"></i> Club Charley's</p>--}}
+            {{--</div>--}}
             <div class="col-sm-4 col-md-3 col-lg-3">
                 <!-- Footer Social Profiles List -->
                 <ul class="list-inline social-buttons">
-                    <li> <a class="fa fa-twitter fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                    <li> <a class="fa fa-facebook fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                    <li> <a class="fa fa-linkedin fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                    <li> <a class="fa fa-google-plus fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                    <li> <a class="fa fa-pinterest-p fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
+                    <li> <a class="fa fa-twitter fa-lg" href="https://www.facebook.com/clubcharleys"></a> </li>
+                    <li> <a class="fa fa-facebook fa-lg" href="https://www.facebook.com/clubcharleys"></a> </li>
+                    <li> <a class="fa fa-linkedin fa-lg" href="https://www.facebook.com/clubcharleys"></a> </li>
+                    <li> <a class="fa fa-google-plus fa-lg" href="https://www.facebook.com/clubcharleys"></a> </li>
+                    <li> <a class="fa fa-pinterest-p fa-lg" href="https://www.facebook.com/clubcharleys"></a> </li>
                 </ul>
                 <!-- /.Footer Social Profiles List -->
             </div>
