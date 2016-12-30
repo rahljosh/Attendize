@@ -18,9 +18,9 @@ return [
     'outgoing_email_name'    => env('MAIL_FROM_NAME'),
     'incoming_email'         => env('MAIL_FROM_ADDRESS'),
 
-    'app_name'               => 'Attendize Event Ticketing',
-    'event_default_bg_color' => '#B23333',
-    'event_default_bg_image' => 'assets/images/public/EventPage/backgrounds/5.jpg',
+    'app_name'               => "Club Charley's Events",
+    'event_default_bg_color' => '#000000',
+    'event_default_bg_image' => 'assets/images/public/EventPage/backgrounds/16.jpg',
 
     'event_images_path'      => 'user_content/event_images',
     'organiser_images_path'  => 'user_content/organiser_images',
@@ -56,7 +56,7 @@ return [
 
 
     'default_timezone'           => 30, #Europe/Dublin
-    'default_currency'           => 2, #Euro
+    'default_currency'           => 1, #Euro
     'default_date_format'        => 'j M, Y',
     'default_date_picker_format' => 'd M, yyyy',
     'default_datetime_format'    => 'F j, Y, g:i a',
