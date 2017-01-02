@@ -13,6 +13,7 @@
                 <li><a class="page-scroll" href="#highlight">Angels</a></li>
                 <li><a class="page-scroll" href="#schedule">Specials</a></li>
                 <li><a class="page-scroll" href="#location">Location</a></li>
+                <li><a class="page-scroll" href="/admin">Login</a></li>
             </ul>
         </div>
         <!--/.navbar-collapse -->
