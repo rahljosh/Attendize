@@ -90,7 +90,7 @@ class EventTicketsController extends MyBaseController
     public function postCreateTicket(Request $request, $event_id)
     {
         $ticket = Ticket::createNew();
-
+    dd('josh');
         if (!$ticket->validate($request->all())) {
             return response()->json([
                 'status'   => 'error',
