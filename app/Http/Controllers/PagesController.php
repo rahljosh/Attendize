@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\EventStats;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -19,8 +20,8 @@ class PagesController extends Controller
      */
     public function index()
     {
-        $events = Event::all();
-        $event_stats = EventStats::all();
+        $events = Event::where('start_date','>=',Carbon::now())->get();
+
         //return $event_stats;
         return view('/Public/Bar/welcome',compact('events'));
     }

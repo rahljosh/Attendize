@@ -28,7 +28,7 @@
                                         <td>
                                 <span class="ticket-title semibold" property="name">
                                     {{$ticket->title}}
-                     
+
                                 </span>
                                             <p class="ticket-descripton mb0 text-muted" property="description">
                                                 {{$ticket->description}}

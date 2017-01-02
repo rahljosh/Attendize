@@ -184,11 +184,17 @@
                             <h3>{{  $event->title }}</h3>
                             <p> {{ $event->description }}</p>
                             @if($event->happening_now)
-                                This event is on now
+                                This event is happening Now
                             @else
                                 <span id="countdown"></span>
                             @endif
-                            <p><a href="{{ $event->event_url }}" class="btn btn-main-ghost btn-block">Tickets</a></p>
+                            @if($event->start_date->isPast())
+                                <div class="alert alert-boring">
+                                    This event has {{($event->end_date->isFuture() ? 'already started' : 'ended')}}.
+                                </div>
+                            @else
+                                <p><a href="{{ $event->event_url }}" class="btn btn-main-ghost btn-block">Tickets</a></p>
+                            @endif
                         </div>
                         <footer>
                             <div class="views"><i class="fa fa-eye"></i> {{ $event->stats->sum('views') }} </div>
