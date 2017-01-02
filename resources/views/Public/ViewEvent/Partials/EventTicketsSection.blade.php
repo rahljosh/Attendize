@@ -23,17 +23,26 @@
                                 $is_free_event = true;
                                 ?>
                                 @foreach($tickets as $ticket)
+
                                     <tr class="ticket" property="offers" typeof="Offer">
                                         <td>
                                 <span class="ticket-title semibold" property="name">
                                     {{$ticket->title}}
+                     
                                 </span>
                                             <p class="ticket-descripton mb0 text-muted" property="description">
                                                 {{$ticket->description}}
                                             </p>
                                         </td>
                                         <td style="width:180px; text-align: right;">
+                                            <p class="ticket-descripton mb0 text-muted" property="description">
+
+                                            </p>
+                                        </td>
+                                        <td style="width:180px; text-align: right;">
+
                                             <div class="ticket-pricing" style="margin-right: 20px;">
+
                                                 @if($ticket->is_free)
                                                     FREE
                                                     <meta property="price" content="0">
@@ -48,6 +57,7 @@
                                                           content="{{ number_format($ticket->price, 2, '.', '') }}">
                                                 @endif
                                             </div>
+
                                         </td>
                                         <td style="width:85px;">
                                             @if($ticket->is_paused)
@@ -79,12 +89,16 @@
                                                         @if ($tickets->count() > 1)
                                                             <option value="0">0</option>
                                                         @endif
-                                                        @for($i=$ticket->min_per_person; $i<=$ticket->max_per_person; $i++)
+                                                        @for($i=$ticket->min_per_person; $i<=($ticket->quantity_available - $ticket->quantity_sold); $i++)
                                                             <option value="{{$i}}">{{$i}}</option>
                                                         @endfor
                                                     </select>
                                                 @endif
-
+                                                    <p class="ticket-descripton mb0 text-muted" property="description">
+                                                        @if ($ticket->quantity_available > ($ticket->quantity_available - $ticket->quantity_sold))
+                                                            Only {{ ($ticket->quantity_available - $ticket->quantity_sold) }} left
+                                                        @endif
+                                                    </p>
                                             @endif
                                         </td>
                                     </tr>
