@@ -95,8 +95,8 @@
                                                     </select>
                                                 @endif
                                                     <p class="ticket-descripton mb0 text-muted" property="description">
-                                                        @if ($ticket->quantity_available > ($ticket->quantity_available - $ticket->quantity_sold))
-                                                            Only {{ ($ticket->quantity_available - $ticket->quantity_sold) }} left
+                                                        @if ($ticket->quantity_available > ($ticket->quantity_available - $ticket->quantity_sold) and ($ticket->quantity_available - $ticket->quantity_sold) != 0 )
+                                                            Only {{ ($ticket->quantity_available - $ticket->quantity_sold) }} left!
                                                         @endif
                                                     </p>
                                             @endif
