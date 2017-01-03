@@ -96,7 +96,7 @@
                             <img src="{{  $event->images->first()['image_path'] }}" class="img-responsive center-block" alt="Get Your Tickets"></div>
                         <div class="details">
                             <h3>{{  $event->title }}</h3>
-                            <h4>{{ $event->start_date->format('F jS') }} </h4>
+                            <h4>{{ $event->start_date->format('l -  F jS') }} </h4>
                             <span property="startDate" content="{{ $event->start_date->toIso8601String() }}">
                                 {{ $event->start_date->format('g:i A') }}
                             </span>
