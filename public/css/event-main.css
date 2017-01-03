@@ -220,6 +220,7 @@ h3.talktitle {font-size:21px;text-transform:uppercase; font-weight:400}
 @media (max-width: 768px) { 
 h3.talktitle {font-size: 16px;text-transform: uppercase;font-weight: 400;}
 }
+section#speaker-details  {background:#ffffff;}
 
 /* ========== Speaker Items ========== */
 figure.speaker{color:#fff;position:relative;float:left;overflow:hidden;width:100%;background:#000;text-align:center;margin-bottom:20px}
@@ -514,7 +515,8 @@ header#hero-sm .header-text {padding-top: 150px;padding-bottom: 100px;}
 .schedulebg {background-image: url(../assets/media/image-backgrounds/black-and-white/schedulebg.jpg);}
 .speakersbg {background-image: url(../assets/media/image-backgrounds/black-and-white/speakersbg.jpg);}
 .latest-news {background-image: url(../assets/media/image-backgrounds/black-and-white/latest-newsbg.jpg);}
-.speakerdetails {background-image: url(../assets/media/image-backgrounds/black-and-white/speaker-detailsbg.jpg);}
+.speakerdetails {background-image: url(../assets/media/image-backgrounds/angels-2.jpg);}
+.speakerdetails-section-background {background: #ffffff;}
 .blankbg {background-image: url(../assets/media/image-backgrounds/black-and-white/buildingsbg.jpg);}
 .getstarted {background-image:url(../assets/media/image-backgrounds/black-and-white/peoplebg.jpg);}
 

@@ -68,9 +68,10 @@
     {{--<!-- /.container -->--}}
 {{--</section>--}}
 <!-- /.Event Features -->
-
+<span id="angels"></span>
 <!-- Angels -->
 <section id="speakers">
+
     <div class="container">
         <!-- Title & Subtitle -->
         <div class="row">
@@ -88,7 +89,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 text-center">
                 <!-- Speaker 01 -->
-                <div class="speaker-item"> <a href="angel-details2.html#spyke">
+                <div class="speaker-item"> <a href="/angels#spyke">
                         <figure class="speaker accent-bg"> <img src="assets/media/angels/spyke-naugahyde.jpg" width="300" height="300" alt="Spyke Naugahyde" class="img-responsive center-block" />
                             <figcaption>
                                 <p class="text-uppercase accent">Spyke</p>
@@ -103,7 +104,7 @@
             </div>
             <div class="col-md-3 col-sm-6 text-center">
                 <!-- Speaker 03 -->
-                <div class="speaker-item"> <a href="speaker-details2.html#annie">
+                <div class="speaker-item"> <a href="/angels#annie">
                         <figure class="speaker accent-bg"> <img src="assets/media/angels/annie-rexia.jpg" width="300" height="300" alt="Annie Rexia" class="img-responsive center-block" />
                             <figcaption>
                                 <p class="text-uppercase accent">Annie</p>
@@ -118,7 +119,7 @@
             </div>
             <div class="col-md-3 col-sm-6 text-center">
                 <!-- Speaker 02 -->
-                <div class="speaker-item"> <a href="angel-details2.html#missjay">
+                <div class="speaker-item"> <a href="/angels#miss-jay">
                         <figure class="speaker accent-bg"> <img src="assets/media/angels/miss-jay.jpg" width="300" height="300" alt="Miss Jay" class="img-responsive center-block" />
                             <figcaption>
                                 <p class="text-uppercase accent">Miss Jay</p>
@@ -133,7 +134,7 @@
             </div>
             <div class="col-md-3 col-sm-6 text-center">
                 <!-- Speaker 04 -->
-                <div class="speaker-item"> <a href="angels-details2.html#ashley">
+                <div class="speaker-item"> <a href="/angels#ashley">
                         <figure class="speaker accent-bg"> <img src="assets/media/angels/ashley-liquor.jpg" width="300" height="300" alt="Speaker" class="img-responsive center-block" />
                             <figcaption>
                                 <p class="text-uppercase accent">Ashley</p>
@@ -141,11 +142,27 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <p><span class="speaker-accent">Ashley Liquor/span><br/>
+                    <p><span class="speaker-accent">Ashley Liquor</span><br/>
                         Boise, ID</p>
                 </div>
                 <!-- /.Speaker 04 -->
             </div>
+            <div class="col-md-3 col-sm-6 text-center">
+                <!-- Speaker 04 -->
+                <div class="speaker-item"> <a href="/angels#cassie">
+                        <figure class="speaker accent-bg"> <img src="assets/media/angels/cassie-st-john.jpg" width="300" height="300" alt="Speaker" class="img-responsive center-block" />
+                            <figcaption>
+                                <p class="text-uppercase accent">Cassie</p>
+                                <p>St. John</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <p><span class="speaker-accent">Cassie St. John</span><br/>
+                        Boise, ID</p>
+                </div>
+                <!-- /.Speaker 04 -->
+            </div>
+
 
         </div>
         <!-- /.Speakers List -->
@@ -155,7 +172,7 @@
     <!-- /.container -->
 </section>
 <!-- /.Speakers -->
-
+<span id="events"></span>
 <!-- Highlight -->
 <section id="highlight">
     <div class="container">
@@ -222,7 +239,7 @@
     <!-- /.Speaker CTA Button -->
 </section>
 <!-- /.Highlight -->
-
+<span id="specials"></span>
 <!-- Schedule Timeline -->
 <section id="schedule">
     <div class="container">
@@ -371,7 +388,7 @@
     {{--<!-- /.container -->--}}
 {{--</section>--}}
 {{--<!-- /.Section Pricing -->--}}
-
+<span id="bartenders"></span>
 <!-- Section Sponsors -->
 <section id="sponsors">
     <div class="container">

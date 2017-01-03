@@ -26,8 +26,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title">
-                    <h2 class="text-center"><span>Speakers</span></h2>
-                    <p class="subtitle text-center">Satisne ergo pudori consulat, si quis sine teste libidini pareat</p>
+                    <h2 class="text-center"><span>The Angels</span></h2>
+                    <p class="subtitle text-center">The only angels in Southeast Idaho!</p>
                     <p class="subtitle text-center"><i class="fa fa-angle-down fa-lg"></i></p>
                 </div>
             </div>
@@ -39,28 +39,28 @@
             <div class="col-lg-12">
                 <hr class="border-thick" />
                 <!-- Speaker 01 -->
-                <a class="anchor" id="speaker1"></a>
+                <a class="anchor" id="spyke"></a>
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="speaker-item"> <a href="#">
-                                <figure class="speaker accent-bg"> <img src="assets/media/speakers/speaker-01.jpg" width="500" height="500" alt="Speaker" class="img-responsive center-block" />
+                                <figure class="speaker accent-bg"> <img src="assets/media/angels/spyke-naugahyde.jpg" width="500" height="500" alt="Spyke Naugahuyde" class="img-responsive center-block" />
                                     <figcaption>
-                                        <p class="text-uppercase accent">Tech Hall</p>
-                                        <p>04/10/2016 - 3PM</p>
+                                        <p class="text-uppercase accent">Spyke</p>
+                                        <p> NAUGAHYDE</p>
                                     </figcaption>
                                 </figure>
                             </a>
                             <ul class="list-inline social-buttons">
-                                <li> <a class="fa fa-twitter fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                                <li> <a class="fa fa-linkedin fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                                <li> <a class="fa fa-google-plus fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                                <li><a class="fa fa-link fa-lg" href="https://designify.me"></a> </li>
+                                <li> <a class="fa fa-facebook fa-lg" href="https://www.facebook.com/casey.wynn.5"></a> </li>
+                                <li> <a class="fa fa-youtube fa-lg" href="https://www.youtube.com/user/divanaugahyde/feed"></a> </li>
+                                <li> <a class="fa fa-instagram fa-lg" href="https://www.instagram.com/caseywynn_spykenaugahyde/?hl=en"></a> </li>
+
                             </ul>
                         </div>
                     </div>
                     <div class="col-sm-9">
-                        <h2 class="accent"><i class="fa fa-star"></i> JOSHUA <strong>CULL</strong></h2>
-                        <h3 class="talktitle">Lean UX</h3>
+                        <h2 class="accent"><i class="fa fa-star"></i> SPYKE <strong> NAUGAHYDE</strong></h2>
+                        <h3 class="talktitle">The one, the ONLY true diva, the biggest bitch who keeps the little bitches in line. </h3>
                         <hr class="border-light mrgn-30-top"/>
                         <p class="lead accent">Nam bibendum ullamcorper leo gravida pretium. Curabitur consequat ante vitae velit mattis porttitor. </p>
                         <p>Ut vel libero elementum dui lobortis convallis sed eu risus. Integer faucibus blandit sollicitudin. Cras varius mollis diam, vitae iaculis libero. Duis tincidunt, quam eu dictum faucibus, nisl enim tristique augue, id porttitor ante velit nec odio. Quisque ut ultrices elit.</p>
@@ -73,14 +73,14 @@
                 <hr class="border-thick" />
 
                 <!-- Speaker 02 -->
-                <a class="anchor" id="speaker2"></a>
+                <a class="anchor" id="annie"></a>
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="speaker-item"> <a href="#">
-                                <figure class="speaker accent-bg"> <img src="assets/media/speakers/speaker-02.jpg" width="500" height="500" alt="Speaker" class="img-responsive center-block" />
+                                <figure class="speaker accent-bg"> <img src="assets/media/angels/annie-rexia.jpg" width="500" height="500" alt="Annie Rexia" class="img-responsive center-block" />
                                     <figcaption>
-                                        <p class="text-uppercase accent">Design Hall</p>
-                                        <p>04/10/2016 - 3PM</p>
+                                        <p class="text-uppercase accent">Annie</p>
+                                        <p>Rexia</p>
                                     </figcaption>
                                 </figure>
                             </a>
@@ -93,8 +93,8 @@
                         </div>
                     </div>
                     <div class="col-sm-9">
-                        <h2 class="accent"><i class="fa fa-star"></i> ISABEL <strong>HUDSON</strong></h2>
-                        <h3 class="talktitle">Freelancing is a great job</h3>
+                        <h2 class="accent"><i class="fa fa-star"></i> ANNIE <strong>Rexia</strong></h2>
+                        <h3 class="talktitle">The sugar and spice diva</h3>
                         <hr class="border-light mrgn-30-top"/>
                         <p class="lead accent">Nam bibendum ullamcorper leo gravida pretium. Curabitur consequat ante vitae velit mattis porttitor. </p>
                         <p>Ut vel libero elementum dui lobortis convallis sed eu risus. Integer faucibus blandit sollicitudin. Cras varius mollis diam, vitae iaculis libero. Duis tincidunt, quam eu dictum faucibus, nisl enim tristique augue, id porttitor ante velit nec odio. Quisque ut ultrices elit.</p>
@@ -107,14 +107,14 @@
                 <hr class="border-thick" />
 
                 <!-- Speaker 03 -->
-                <a class="anchor" id="speaker3"></a>
+                <a class="anchor" id="miss-jay"></a>
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="speaker-item"> <a href="#">
-                                <figure class="speaker accent-bg"> <img src="assets/media/speakers/speaker-03.jpg" width="500" height="500" alt="Speaker" class="img-responsive center-block" />
+                                <figure class="speaker accent-bg"> <img src="assets/media/angels/miss-jay.jpg" width="500" height="500" alt="Miss Jay" class="img-responsive center-block" />
                                     <figcaption>
-                                        <p class="text-uppercase accent">Design Hall</p>
-                                        <p>04/10/2016 - 3PM</p>
+                                        <p class="text-uppercase accent">Miss</p>
+                                        <p>Jay</p>
                                     </figcaption>
                                 </figure>
                             </a>
@@ -127,9 +127,9 @@
                         </div>
                     </div>
                     <div class="col-sm-9">
-                        <h2 class="accent"><i class="fa fa-star"></i> FIN <strong>KERRING</strong></h2>
-                        <h3 class="talktitle">Handlettering Techniques</h3>
-                        <hr class="border-light mrgn-30-top"/>
+                        <h2 class="accent"><i class="fa fa-star"></i> Miss <strong>Jay</strong></h2>
+                        <h3 class="talktitle">The loca loca loca diva</h3>
+                        <hr class="border-light mrgn-30-top"/>ca
                         <p class="lead accent">Nam bibendum ullamcorper leo gravida pretium. Curabitur consequat ante vitae velit mattis porttitor. </p>
                         <p>Ut vel libero elementum dui lobortis convallis sed eu risus. Integer faucibus blandit sollicitudin. Cras varius mollis diam, vitae iaculis libero. Duis tincidunt, quam eu dictum faucibus, nisl enim tristique augue, id porttitor ante velit nec odio. Quisque ut ultrices elit.</p>
                         <p>Sed pellentesque euismod justo, vitae maximus ligula. Donec elementum libero arcu, id interdum mauris posuere quis. In porta consequat rhoncus. Phasellus ut lobortis metus. Proin quis est in risus viverra pulvinar ut vel neque. Fusce non eros dui.</p>
@@ -140,49 +140,15 @@
 
                 <hr class="border-thick" />
 
-                <!-- Speaker 04 -->
-                <a class="anchor" id="speaker4"></a>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <div class="speaker-item"> <a href="#">
-                                <figure class="speaker accent-bg"> <img src="assets/media/speakers/speaker-04.jpg" width="500" height="500" alt="Speaker" class="img-responsive center-block" />
-                                    <figcaption>
-                                        <p class="text-uppercase accent">Design Hall</p>
-                                        <p>04/10/2016 - 3PM</p>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                            <ul class="list-inline social-buttons">
-                                <li> <a class="fa fa-twitter fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                                <li> <a class="fa fa-linkedin fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                                <li> <a class="fa fa-google-plus fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                                <li><a class="fa fa-link fa-lg" href="https://designify.me"></a> </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-9">
-                        <h2 class="accent"><i class="fa fa-star"></i> KEVIN <strong>HULL</strong></h2>
-                        <h3 class="talktitle">Future-proof Coding</h3>
-                        <hr class="border-light mrgn-30-top"/>
-                        <p class="lead accent">Nam bibendum ullamcorper leo gravida pretium. Curabitur consequat ante vitae velit mattis porttitor. </p>
-                        <p>Ut vel libero elementum dui lobortis convallis sed eu risus. Integer faucibus blandit sollicitudin. Cras varius mollis diam, vitae iaculis libero. Duis tincidunt, quam eu dictum faucibus, nisl enim tristique augue, id porttitor ante velit nec odio. Quisque ut ultrices elit.</p>
-                        <p>Sed pellentesque euismod justo, vitae maximus ligula. Donec elementum libero arcu, id interdum mauris posuere quis. In porta consequat rhoncus. Phasellus ut lobortis metus. Proin quis est in risus viverra pulvinar ut vel neque. Fusce non eros dui.</p>
-                        <p>Aenean justo diam, tincidunt sit amet ex vel, mollis imperdiet ligula. Nam eget fermentum ligula, tristique placerat mauris. Donec hendrerit pretium nisl, a imperdiet sapien congue eu. Duis iaculis urna mauris, non lobortis erat ullamcorper ac.</p>
-                    </div>
-                </div>
-                <!-- /.Speaker 04 -->
-
-                <hr class="border-thick" />
-
                 <!-- Speaker 05 -->
-                <a class="anchor" id="speaker5"></a>
+                <a class="anchor" id="ashley"></a>
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="speaker-item"> <a href="#">
-                                <figure class="speaker accent-bg"> <img src="assets/media/speakers/speaker-05.jpg" width="500" height="500" alt="Speaker" class="img-responsive center-block" />
+                                <figure class="speaker accent-bg"> <img src="assets/media/angels/ashley-liquor.jpg" width="500" height="500" alt="Speaker" class="img-responsive center-block" />
                                     <figcaption>
-                                        <p class="text-uppercase accent">Design Hall</p>
-                                        <p>04/10/2016 - 3PM</p>
+                                        <p class="text-uppercase accent">Ashley</p>
+                                        <p>Liquor</p>
                                     </figcaption>
                                 </figure>
                             </a>
@@ -195,8 +161,8 @@
                         </div>
                     </div>
                     <div class="col-sm-9">
-                        <h2 class="accent"><i class="fa fa-star"></i> EDUARDO <strong>MENDES</strong></h2>
-                        <h3 class="talktitle">Why old tricks don't work?</h3>
+                        <h2 class="accent"><i class="fa fa-star"></i> Ashley <strong>Liquor</strong></h2>
+                        <h3 class="talktitle">The tits and ass diva</h3>
                         <hr class="border-light mrgn-30-top"/>
                         <p class="lead accent">Nam bibendum ullamcorper leo gravida pretium. Curabitur consequat ante vitae velit mattis porttitor. </p>
                         <p>Ut vel libero elementum dui lobortis convallis sed eu risus. Integer faucibus blandit sollicitudin. Cras varius mollis diam, vitae iaculis libero. Duis tincidunt, quam eu dictum faucibus, nisl enim tristique augue, id porttitor ante velit nec odio. Quisque ut ultrices elit.</p>
@@ -206,17 +172,18 @@
                 </div>
                 <!-- /.Speaker 05 -->
 
+
                 <hr class="border-thick" />
 
-                <!-- Speaker 06 -->
-                <a class="anchor" id="speaker6"></a>
+                <!-- Speaker 04 -->
+                <a class="anchor" id="cassie"></a>
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="speaker-item"> <a href="#">
-                                <figure class="speaker accent-bg"> <img src="assets/media/speakers/speaker-06.jpg" width="500" height="500" alt="Speaker" class="img-responsive center-block" />
+                                <figure class="speaker accent-bg"> <img src="assets/media/angels/cassie-st-john.jpg" width="500" height="500" alt="Speaker" class="img-responsive center-block" />
                                     <figcaption>
-                                        <p class="text-uppercase accent">Design Hall</p>
-                                        <p>04/10/2016 - 3PM</p>
+                                        <p class="text-uppercase accent">Cassie</p>
+                                        <p>St. John</p>
                                     </figcaption>
                                 </figure>
                             </a>
@@ -229,8 +196,8 @@
                         </div>
                     </div>
                     <div class="col-sm-9">
-                        <h2 class="accent"><i class="fa fa-star"></i> STEPHANY <strong>MOORE</strong></h2>
-                        <h3 class="talktitle">I do not work, I play</h3>
+                        <h2 class="accent"><i class="fa fa-star"></i> Cassie <strong>St John</strong></h2>
+                        <h3 class="talktitle">The T&T Diva</h3>
                         <hr class="border-light mrgn-30-top"/>
                         <p class="lead accent">Nam bibendum ullamcorper leo gravida pretium. Curabitur consequat ante vitae velit mattis porttitor. </p>
                         <p>Ut vel libero elementum dui lobortis convallis sed eu risus. Integer faucibus blandit sollicitudin. Cras varius mollis diam, vitae iaculis libero. Duis tincidunt, quam eu dictum faucibus, nisl enim tristique augue, id porttitor ante velit nec odio. Quisque ut ultrices elit.</p>
@@ -238,75 +205,7 @@
                         <p>Aenean justo diam, tincidunt sit amet ex vel, mollis imperdiet ligula. Nam eget fermentum ligula, tristique placerat mauris. Donec hendrerit pretium nisl, a imperdiet sapien congue eu. Duis iaculis urna mauris, non lobortis erat ullamcorper ac.</p>
                     </div>
                 </div>
-                <!-- /.Speaker 06 -->
-
-                <hr class="border-thick" />
-
-                <!-- Speaker 07 -->
-                <a class="anchor" id="speaker7"></a>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <div class="speaker-item"> <a href="#">
-                                <figure class="speaker accent-bg"> <img src="assets/media/speakers/speaker-07.jpg" width="500" height="500" alt="Speaker" class="img-responsive center-block" />
-                                    <figcaption>
-                                        <p class="text-uppercase accent">Design Hall</p>
-                                        <p>04/10/2016 - 3PM</p>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                            <ul class="list-inline social-buttons">
-                                <li> <a class="fa fa-twitter fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                                <li> <a class="fa fa-linkedin fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                                <li> <a class="fa fa-google-plus fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                                <li><a class="fa fa-link fa-lg" href="https://designify.me"></a> </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-9">
-                        <h2 class="accent"><i class="fa fa-star"></i> JILL<strong>COVERN</strong></h2>
-                        <h3 class="talktitle">Alluring customers with stories </h3>
-                        <hr class="border-light mrgn-30-top"/>
-                        <p class="lead accent">Nam bibendum ullamcorper leo gravida pretium. Curabitur consequat ante vitae velit mattis porttitor. </p>
-                        <p>Ut vel libero elementum dui lobortis convallis sed eu risus. Integer faucibus blandit sollicitudin. Cras varius mollis diam, vitae iaculis libero. Duis tincidunt, quam eu dictum faucibus, nisl enim tristique augue, id porttitor ante velit nec odio. Quisque ut ultrices elit.</p>
-                        <p>Sed pellentesque euismod justo, vitae maximus ligula. Donec elementum libero arcu, id interdum mauris posuere quis. In porta consequat rhoncus. Phasellus ut lobortis metus. Proin quis est in risus viverra pulvinar ut vel neque. Fusce non eros dui.</p>
-                        <p>Aenean justo diam, tincidunt sit amet ex vel, mollis imperdiet ligula. Nam eget fermentum ligula, tristique placerat mauris. Donec hendrerit pretium nisl, a imperdiet sapien congue eu. Duis iaculis urna mauris, non lobortis erat ullamcorper ac.</p>
-                    </div>
-                </div>
-                <!-- /.Speaker 07 -->
-
-                <hr class="border-thick" />
-
-                <!-- Speaker 08 -->
-                <a class="anchor" id="speaker8"></a>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <div class="speaker-item"> <a href="#">
-                                <figure class="speaker accent-bg"> <img src="assets/media/speakers/speaker-08.jpg" width="500" height="500" alt="Speaker" class="img-responsive center-block" />
-                                    <figcaption>
-                                        <p class="text-uppercase accent">Design Hall</p>
-                                        <p>04/10/2016 - 3PM</p>
-                                    </figcaption>
-                                </figure>
-                            </a>
-                            <ul class="list-inline social-buttons">
-                                <li> <a class="fa fa-twitter fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                                <li> <a class="fa fa-linkedin fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                                <li> <a class="fa fa-google-plus fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                                <li><a class="fa fa-link fa-lg" href="https://designify.me"></a> </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-9">
-                        <h2 class="accent"><i class="fa fa-star"></i> TORN <strong>SCHWARZ</strong></h2>
-                        <h3 class="talktitle">Simplicity and Culture</h3>
-                        <hr class="border-light mrgn-30-top"/>
-                        <p class="lead accent">Nam bibendum ullamcorper leo gravida pretium. Curabitur consequat ante vitae velit mattis porttitor. </p>
-                        <p>Ut vel libero elementum dui lobortis convallis sed eu risus. Integer faucibus blandit sollicitudin. Cras varius mollis diam, vitae iaculis libero. Duis tincidunt, quam eu dictum faucibus, nisl enim tristique augue, id porttitor ante velit nec odio. Quisque ut ultrices elit.</p>
-                        <p>Sed pellentesque euismod justo, vitae maximus ligula. Donec elementum libero arcu, id interdum mauris posuere quis. In porta consequat rhoncus. Phasellus ut lobortis metus. Proin quis est in risus viverra pulvinar ut vel neque. Fusce non eros dui.</p>
-                        <p>Aenean justo diam, tincidunt sit amet ex vel, mollis imperdiet ligula. Nam eget fermentum ligula, tristique placerat mauris. Donec hendrerit pretium nisl, a imperdiet sapien congue eu. Duis iaculis urna mauris, non lobortis erat ullamcorper ac.</p>
-                    </div>
-                </div>
-                <!-- /.Speaker 08 -->
+                <!-- /.Speaker 04 -->
 
                 <hr class="border-thick" />
             </div>
