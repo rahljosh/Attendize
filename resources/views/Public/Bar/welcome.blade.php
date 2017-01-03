@@ -68,6 +68,73 @@
     {{--<!-- /.container -->--}}
 {{--</section>--}}
 <!-- /.Event Features -->
+<span id="events"></span>
+<!-- Events -->
+<section id="highlight">
+    <div class="container">
+        <!-- Title & Subtitle -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title-white">
+                    <h2 class="text-center"><span>Events</span></h2>
+                    <p class="subtitle white text-center">Upcoming Events</p>
+                    <p class="subtitle text-center"><i class="fa fa-angle-down fa-lg white"></i></p>
+                </div>
+            </div>
+        </div>
+        <!-- /.Title & Subtitle -->
+
+        <!-- CTA Boxes -->
+        <div class="row">
+            @foreach($events as $event)
+                <div class="col-sm-4">
+                    <!-- News Item 01 -->
+                    <div class="news-item">
+                        <div class="image">
+                            <div class="date"><span class="day">{{  $event->start_date->format('j')}} </span><span class="month">{{  $event->start_date->format('M')}}</span></div>
+                            <img src="{{  $event->images->first()['image_path'] }}" class="img-responsive center-block" alt="Get Early-bird Tickets"></div>
+                        <div class="details">
+                            <h3>{{  $event->title }}</h3>
+                            <p> {{ $event->description }}</p>
+                            @if($event->happening_now)
+                                This event is happening Now
+                            @else
+                                <span id="countdown"></span>
+                            @endif
+                            @if($event->start_date->isPast())
+                                <div class="alert alert-boring">
+                                    This event has {{($event->end_date->isFuture() ? 'already started' : 'ended')}}.
+                                </div>
+                            @else
+                                <p><a href="{{ $event->event_url }}" class="btn btn-main-ghost btn-block">Tickets</a></p>
+                            @endif
+                        </div>
+                        <footer>
+                            <div class="views"><i class="fa fa-eye"></i> {{ $event->stats->sum('views') }} </div>
+                            <div class="love"><i class="fa fa-credit-card"></i> {{ $event->tickets->sum('quantity_sold') }} </div>
+
+                        </footer>
+                    </div>
+                    <!-- /.News Item 01 -->
+                </div>
+
+
+
+
+            @endforeach
+        </div>
+        <!-- /.CTA Boxes -->
+    </div>
+    <!-- /.container -->
+    <!-- Speaker CTA Button -->
+    <div class="row">
+        <div class="col-md-12">
+            <p class="mrgn-50-top text-center"><a href="/o/1" class="btn btn-main-ghost">View All Upcoming Events</a></p>
+        </div>
+    </div>
+    <!-- /.Speaker CTA Button -->
+</section>
+<!-- /.Events -->
 <span id="angels"></span>
 <!-- Angels -->
 <section id="speakers">
@@ -171,74 +238,8 @@
     </div>
     <!-- /.container -->
 </section>
-<!-- /.Speakers -->
-<span id="events"></span>
-<!-- Highlight -->
-<section id="highlight">
-    <div class="container">
-        <!-- Title & Subtitle -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title-white">
-                    <h2 class="text-center"><span>Events</span></h2>
-                    <p class="subtitle white text-center">Upcoming Events</p>
-                    <p class="subtitle text-center"><i class="fa fa-angle-down fa-lg white"></i></p>
-                </div>
-            </div>
-        </div>
-        <!-- /.Title & Subtitle -->
+<!-- /.Angels -->
 
-        <!-- CTA Boxes -->
-        <div class="row">
-            @foreach($events as $event)
-                <div class="col-sm-4">
-                    <!-- News Item 01 -->
-                    <div class="news-item">
-                        <div class="image">
-                            <div class="date"><span class="day">{{  $event->start_date->format('j')}} </span><span class="month">{{  $event->start_date->format('M')}}</span></div>
-                            <img src="{{  $event->images->first()['image_path'] }}" class="img-responsive center-block" alt="Get Early-bird Tickets"></div>
-                        <div class="details">
-                            <h3>{{  $event->title }}</h3>
-                            <p> {{ $event->description }}</p>
-                            @if($event->happening_now)
-                                This event is happening Now
-                            @else
-                                <span id="countdown"></span>
-                            @endif
-                            @if($event->start_date->isPast())
-                                <div class="alert alert-boring">
-                                    This event has {{($event->end_date->isFuture() ? 'already started' : 'ended')}}.
-                                </div>
-                            @else
-                                <p><a href="{{ $event->event_url }}" class="btn btn-main-ghost btn-block">Tickets</a></p>
-                            @endif
-                        </div>
-                        <footer>
-                            <div class="views"><i class="fa fa-eye"></i> {{ $event->stats->sum('views') }} </div>
-                            <div class="love"><i class="fa fa-credit-card"></i> {{ $event->tickets->sum('quantity_sold') }} </div>
-
-                        </footer>
-                    </div>
-                    <!-- /.News Item 01 -->
-                </div>
-
-
-
-
-            @endforeach
-        </div>
-        <!-- /.CTA Boxes -->
-    </div>
-    <!-- /.container -->
-    <!-- Speaker CTA Button -->
-    <div class="row">
-        <div class="col-md-12">
-            <p class="mrgn-50-top text-center"><a href="/o/1" class="btn btn-main-ghost">View All Upcoming Events</a></p>
-        </div>
-    </div>
-    <!-- /.Speaker CTA Button -->
-</section>
-<!-- /.Highlight -->
 <span id="specials"></span>
 <!-- Schedule Timeline -->
 <section id="schedule">
@@ -535,7 +536,7 @@
 <!-- /.Section Newsletter -->
 
 <!-- Section Location -->
-<section id="location">
+<section id="location-details">
     <div id="google-container"></div>
     <div id="cd-zoom-in"></div>
     <div id="cd-zoom-out"></div>
@@ -549,19 +550,19 @@
 <footer>
     <div class="container">
         <div class="row">
-            {{--<div class="col-sm-8 col-md-9 col-lg-9">--}}
-                {{--<!-- Footer Menu List -->--}}
-                {{--<ul class="list-inline">--}}
-                    {{--<li><a href="#speakers">Speakers</a></li>--}}
-                    {{--<li><a href="#highlight">Highlights</a></li>--}}
-                    {{--<li><a href="#schedule">Schedule</a></li>--}}
-                    {{--<li><a href="#sponsors">Sponsors</a></li>--}}
-                    {{--<li><a href="#pricing">Tickets</a></li>--}}
-                    {{--<li><a href="#location">Location</a></li>--}}
-                {{--</ul>--}}
-                {{--<!-- /.Footer Menu List -->--}}
-                {{--<p class="copyright white ">Copyright <i class="fa fa-copyright"></i> Club Charley's</p>--}}
-            {{--</div>--}}
+            <div class="col-sm-8 col-md-9 col-lg-9">
+                <!-- Footer Menu List -->
+                <ul class="list-inline">
+                    <li><a href="#speakers">Speakers</a></li>
+                    <li><a href="#highlight">Highlights</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#sponsors">Sponsors</a></li>
+                    <li><a href="#pricing">Tickets</a></li>
+                    <li><a href="#location">Location</a></li>
+                </ul>
+                <!-- /.Footer Menu List -->
+                <p class="copyright white ">Copyright <i class="fa fa-copyright"></i> Club Charley's</p>
+            </div>
             <div class="col-sm-4 col-md-3 col-lg-3">
                 <!-- Footer Social Profiles List -->
                 <ul class="list-inline social-buttons">

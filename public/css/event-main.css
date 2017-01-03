@@ -388,7 +388,7 @@ section#location .embed-responsive-16by9{padding:10%}
 @media (max-width: 767px) {
 section#location .embed-responsive-16by9{padding:25%}
 }
-
+section#location-details  {background:#ffffff;}
 /*********  
 13.Footer
 *********/
