@@ -7,7 +7,7 @@
             <div class="col-md-10 col-md-offset-1">
                 <!-- Heading Title Area -->
                 <div class="header-text white text-center text-uppercase">
-                    <h1>Charly's Angels</h1>
+                    <h1>Charley's Angels</h1>
                     <h2>“tag line of some sort” </h2>
                     <p> &mdash;  rabid fan name </p>
                 </div>
