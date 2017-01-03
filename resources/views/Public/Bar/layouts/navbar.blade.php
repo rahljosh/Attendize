@@ -9,11 +9,11 @@
         <!-- navbar-collapse -->
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="page-scroll" href="/">Club Charley's</a></li>
-                <li><a class="page-scroll" href="/#events">Events/Tickets</a></li>
-                <li><a class="page-scroll" href="/#angels">Angels</a></li>
-                <li><a class="page-scroll" href="/#specials">Specials</a></li>
-                <li><a class="page-scroll" href="/#bartenders">Bartenders</a></li>
+                <li><a class="page-scroll" href="/home">Club Charley's</a></li>
+                <li><a class="page-scroll" href="/home#events">Events/Tickets</a></li>
+                <li><a class="page-scroll" href="/home#angels">Angels</a></li>
+                <li><a class="page-scroll" href="/home#specials">Specials</a></li>
+                <li><a class="page-scroll" href="/home#bartenders">Bartenders</a></li>
                 <li><a class="page-scroll" href="/admin">Login</a></li>
             </ul>
         </div>

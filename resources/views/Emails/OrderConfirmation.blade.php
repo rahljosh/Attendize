@@ -1,11 +1,19 @@
 @extends('Emails.Layouts.Master')
 
 @section('message_content')
-Hello,<br><br>
+{{$order->first_name}},<br><br>
 
 Your order for the event <b>{{$order->event->title}}</b> was successful.<br><br>
 
-Your tickets are attached to this email. You can also view you order details and download your tickets at: {{route('showOrderDetails', ['order_reference' => $order->order_reference])}}
+Full details of your order are available at:<br>
+{{route('showOrderDetails', ['order_reference' => $order->order_reference])}}
+<br><br>
+
+
+<h3>Event Details</h3>
+Event: {{$order->event->title}}<br>
+Date: {{ $order->event->start_date->format('l -  F jS') }}<br>
+Time: {{ $order->event->start_date->format('g:i A') }} - {{ $order->event->end_date->format('g:i A') }}<br>
 
 
 <h3>Order Details</h3>
@@ -87,5 +95,7 @@ Order Email: <b>{{$order->email}}</b><br>
     <br><br>
 </div>
 <br><br>
-Thank you
+Thank you and we'll see you at the show!
+
+Club Charley's
 @stop

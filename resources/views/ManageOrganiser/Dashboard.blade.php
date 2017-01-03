@@ -83,8 +83,7 @@
 
         <div class="col-md-8">
 
-            <h4 style="margin-bottom: 25px;margin-top: 20px;">Event Calendar</h4>
-                    <div id="calendar"></div>
+
 
 
             <h4 style="margin-bottom: 25px;margin-top: 20px;">Upcoming Events</h4>
@@ -99,6 +98,8 @@
                                                      class=" loadModal">You can click here to create an event.</a>
                 </div>
             @endif
+            <h4 style="margin-bottom: 25px;margin-top: 20px;">Event Calendar</h4>
+            <div id="calendar"></div>
         </div>
         <div class="col-md-4">
             <h4 style="margin-bottom: 25px;margin-top: 20px;">Recent Orders</h4>

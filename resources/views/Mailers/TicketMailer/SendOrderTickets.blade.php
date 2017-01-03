@@ -1,23 +1,29 @@
 @extends('Emails.Layouts.Master')
 
 @section('message_content')
-Hello,<br><br>
+{{$order->first_name}},<br><br>
 
 Your order for the event <b>{{$order->event->title}}</b> was successful.<br><br>
 
-Your tickets are attached to this email. You can also view you order details and download your tickets at: {{route('showOrderDetails', ['order_reference' => $order->order_reference])}}
+Your tickets are attached to this email although, they are NOT required for entry.
 
 @if(!$order->is_payment_received)
 <br><br>
 <b>Please note: This order still requires payment. Instructions on how to make payment can be found on your order page: {{route('showOrderDetails', ['order_reference' => $order->order_reference])}}</b>
 <br><br>
 @endif
+<h3>Event Details</h3>
+Name: <b>{{$order->event->title}}</b><br>
+Date: <b>{{ $order->event->start_date->format('l -  F jS') }}</b><br>
+Time: <b>{{ $order->event->start_date->format('g:i A') }}</b><br>
+<a href="{!! route('downloadCalendarIcs', ['event_id' => $order->event->id]) !!}">Add To Calendar</a>
+
 <h3>Order Details</h3>
 Order Reference: <b>{{$order->order_reference}}</b><br>
 Order Name: <b>{{$order->full_name}}</b><br>
 Order Date: <b>{{$order->created_at->toDayDateTimeString()}}</b><br>
 Order Email: <b>{{$order->email}}</b><br>
-<a href="{!! route('downloadCalendarIcs', ['event_id' => $order->event->id]) !!}">Add To Calendar</a>
+
 <h3>Order Items</h3>
 <div style="padding:10px; background: #F9F9F9; border: 1px solid #f1f1f1;">
     <table style="width:100%; margin:10px;">
@@ -87,9 +93,12 @@ Order Email: <b>{{$order->email}}</b><br>
             </td>
         </tr>
     </table>
+    Full Details: {{route('showOrderDetails', ['order_reference' => $order->order_reference])}}
 
     <br><br>
 </div>
 <br><br>
-Thank you
+Thank you and we'll see you at the show!<br><br>
+
+Club Charley's
 @stop
