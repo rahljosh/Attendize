@@ -93,9 +93,21 @@
                     <div class="news-item">
                         <div class="image">
                             <div class="date"><span class="day">{{  $event->start_date->format('j')}} </span><span class="month">{{  $event->start_date->format('M')}}</span></div>
-                            <img src="{{  $event->images->first()['image_path'] }}" class="img-responsive center-block" alt="Get Early-bird Tickets"></div>
+                            <img src="{{  $event->images->first()['image_path'] }}" class="img-responsive center-block" alt="Get Your Tickets"></div>
                         <div class="details">
                             <h3>{{  $event->title }}</h3>
+                            <h4>{{ $event->start_date->format('F jS') }} </h4>
+                            <span property="startDate" content="{{ $event->start_date->toIso8601String() }}">
+                                {{ $event->start_date->format('g:i A') }}
+                            </span>
+                                -
+                            <span property="endDate" content="{{ $event->end_date->toIso8601String() }}">
+                                 @if($event->start_date->diffInHours($event->end_date) <= 12)
+                                    {{ $event->end_date->format('g:i A') }}
+                                @else
+                                    {{ $event->end_date->format('g:i A') }}
+                                @endif
+                            </span>
                             <p> {{ $event->description }}</p>
                             @if($event->happening_now)
                                 This event is happening Now

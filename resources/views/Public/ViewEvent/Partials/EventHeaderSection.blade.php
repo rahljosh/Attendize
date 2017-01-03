@@ -21,17 +21,17 @@
 <section id="intro" class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1 property="name">{{$event->title}}</h1>
+            <h1 property="name">{{$event->title}}<br> {{ $event->start_date->format('F jS') }}</h1>
             <div class="event_venue">
                 <span property="startDate" content="{{ $event->start_date->toIso8601String() }}">
-                    {{ $event->start_date->format('D d M H:i A') }}
+                    {{ $event->start_date->format('g:i A') }}
                 </span>
                 -
                 <span property="endDate" content="{{ $event->end_date->toIso8601String() }}">
                      @if($event->start_date->diffInHours($event->end_date) <= 12)
-                        {{ $event->end_date->format('H:i A') }}
+                        {{ $event->end_date->format('g:i A') }}
                      @else
-                        {{ $event->end_date->format('D d M H:i A') }}
+                        {{ $event->end_date->format('g:i A') }}
                      @endif
                 </span>
                 @

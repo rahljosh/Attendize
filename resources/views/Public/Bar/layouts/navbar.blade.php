@@ -9,7 +9,7 @@
         <!-- navbar-collapse -->
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="page-scroll" href="/">Club Charleys</a></li>
+                <li><a class="page-scroll" href="/">Club Charley's</a></li>
                 <li><a class="page-scroll" href="/#events">Events/Tickets</a></li>
                 <li><a class="page-scroll" href="/#angels">Angels</a></li>
                 <li><a class="page-scroll" href="/#specials">Specials</a></li>
