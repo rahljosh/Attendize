@@ -410,7 +410,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title">
-                    <h2 class="text-center"><span>Your Bar Tenders</span></h2>
+                    <h2 class="text-center"><span>Your Bartenders</span></h2>
                     <p class="subtitle text-center"></p>
                     <p class="subtitle text-center"><i class="fa fa-angle-down fa-lg"></i></p>
                 </div>
