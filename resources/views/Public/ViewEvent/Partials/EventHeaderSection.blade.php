@@ -44,9 +44,6 @@
             <div class="event_buttons">
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
-                        <a class="btn btn-event-link btn-lg" href="/">HOME</a>
-                    </div>
-                    <div class="col-md-4 col-sm-4">
                         <a class="btn btn-event-link btn-lg" href="{{{$event->event_url}}}#tickets">TICKETS</a>
                     </div>
                     <div class="col-md-4 col-sm-4">
