@@ -21,6 +21,7 @@
                         <div class="col-sm-10 col-sm-offset-1">
                             <h2 class="white"> </h2>
                             <h3 class="mrgn-50-top white sm-title"><span class="date">331 E Center St </span></h3>
+                            <br>
                         </div>
                     </div>
                 </div>
@@ -536,7 +537,7 @@
 <!-- /.Section Newsletter -->
 
 <!-- Section Location -->
-<section id="location-details">
+<section id="location">
     <div id="google-container"></div>
     <div id="cd-zoom-in"></div>
     <div id="cd-zoom-out"></div>
@@ -554,28 +555,28 @@
                 <!-- Footer Menu List -->
                 <ul class="list-inline">
                     <li><a href="#speakers">Speakers</a></li>
-                    <li><a href="#highlight">Highlights</a></li>
-                    <li><a href="#schedule">Schedule</a></li>
-                    <li><a href="#sponsors">Sponsors</a></li>
-                    <li><a href="#pricing">Tickets</a></li>
-                    <li><a href="#location">Location</a></li>
-                </ul>
-                <!-- /.Footer Menu List -->
-                <p class="copyright white ">Copyright <i class="fa fa-copyright"></i> Club Charley's</p>
-            </div>
-            <div class="col-sm-4 col-md-3 col-lg-3">
-                <!-- Footer Social Profiles List -->
-                <ul class="list-inline social-buttons">
-                    <li> <a class="fa fa-twitter fa-lg" href="https://www.facebook.com/clubcharleys"></a> </li>
-                    <li> <a class="fa fa-facebook fa-lg" href="https://www.facebook.com/clubcharleys"></a> </li>
-                    <li> <a class="fa fa-linkedin fa-lg" href="https://www.facebook.com/clubcharleys"></a> </li>
-                    <li> <a class="fa fa-google-plus fa-lg" href="https://www.facebook.com/clubcharleys"></a> </li>
-                    <li> <a class="fa fa-pinterest-p fa-lg" href="https://www.facebook.com/clubcharleys"></a> </li>
-                </ul>
-                <!-- /.Footer Social Profiles List -->
-            </div>
-        </div>
-    </div>
+<li><a href="#highlight">Highlights</a></li>
+<li><a href="#schedule">Schedule</a></li>
+<li><a href="#sponsors">Sponsors</a></li>
+<li><a href="#pricing">Tickets</a></li>
+<li><a href="#location">Location</a></li>
+</ul>
+<!-- /.Footer Menu List -->
+<p class="copyright white ">Copyright <i class="fa fa-copyright"></i> Club Charley's</p>
+</div>
+<div class="col-sm-4 col-md-3 col-lg-3">
+    <!-- Footer Social Profiles List -->
+    <ul class="list-inline social-buttons">
+        <li> <a class="fa fa-twitter fa-lg" href="https://www.facebook.com/clubcharleys"></a> </li>
+        <li> <a class="fa fa-facebook fa-lg" href="https://www.facebook.com/clubcharleys"></a> </li>
+        <li> <a class="fa fa-linkedin fa-lg" href="https://www.facebook.com/clubcharleys"></a> </li>
+        <li> <a class="fa fa-google-plus fa-lg" href="https://www.facebook.com/clubcharleys"></a> </li>
+        <li> <a class="fa fa-pinterest-p fa-lg" href="https://www.facebook.com/clubcharleys"></a> </li>
+    </ul>
+    <!-- /.Footer Social Profiles List -->
+</div>
+</div>
+</div>
 </footer>
 
 <!-- /.Footer -->
@@ -590,7 +591,8 @@
 <!-- Plugins
 *********************** -->
 <!-- Custom styles for Google Map -->
-<script src="https://maps.googleapis.com/maps/api/js"></script>
+{{--<script src="https://maps.googleapis.com/maps/api/js"></script>--}}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBR-6voFdUopNQVVjhyA1C35OCNINLG3Go" type="text/javascript"></script>
 <script src="assets/plugins/custom-google-map/ggl-map.js"></script>
 <!-- Owl Carousel JS -->
 <script src="assets/plugins/owl-carousel/js/owl.carousel.js"></script>

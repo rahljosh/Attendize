@@ -3,7 +3,7 @@
         <!-- navbar-header -->
         <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            {{--<a class="navbar-brand" href="/"><img src="/assets/media/logo/club-charleys-logo.jpg" class="img-responsive" alt="Club Charley's" width="65" height="60" /></a> --}}
+            <a class="navbar-brand" href="/"><img src="/assets/media/logo/club-charleys-logo.jpg" class="img-responsive" alt="Club Charley's" width="65" height="60" /></a>
         </div>
         <!-- /.navbar-header -->
         <!-- navbar-collapse -->
