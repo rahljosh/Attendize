@@ -402,35 +402,39 @@
     {{--<!-- /.container -->--}}
 {{--</section>--}}
 {{--<!-- /.Section Pricing -->--}}
-<span id="bartenders"></span>
-<!-- Section Sponsors -->
-<section id="sponsors">
-    <div class="container">
-        <!-- Title & Subtitle -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h2 class="text-center"><span>Your Bartenders</span></h2>
-                    <p class="subtitle text-center"></p>
-                    <p class="subtitle text-center"><i class="fa fa-angle-down fa-lg"></i></p>
-                </div>
-            </div>
-        </div>
-        <!-- /.Title & Subtitle -->
 
-        <!-- Sponsors List -->
-        <div class="row">
-            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/joey.jpg" width="230" height="150" alt="" />Joey</div>
-            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/red.jpg" width="230" height="150" alt="" />Red</div>
-            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/joey.jpg" width="230" height="150" alt="" />Joey</div>
-            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/red.jpg" width="230" height="150" alt="" />Red</div>
-            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/joey.jpg" width="230" height="150" alt="" />Joey</div>
-            <div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/red.jpg" width="230" height="150" alt="" />Red</div>
-        </div>
-        <!-- /.Sponsors List -->
-    </div>
-    <!-- /.container -->
-</section>
+
+
+
+{{--<span id="bartenders"></span>--}}
+{{--<!-- Section Sponsors -->--}}
+{{--<section id="sponsors">--}}
+    {{--<div class="container">--}}
+        {{--<!-- Title & Subtitle -->--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-md-12">--}}
+                {{--<div class="section-title">--}}
+                    {{--<h2 class="text-center"><span>Your Bartenders</span></h2>--}}
+                    {{--<p class="subtitle text-center"></p>--}}
+                    {{--<p class="subtitle text-center"><i class="fa fa-angle-down fa-lg"></i></p>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<!-- /.Title & Subtitle -->--}}
+
+        {{--<!-- Sponsors List -->--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/joey.jpg" width="230" height="150" alt="" />Joey</div>--}}
+            {{--<div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/red.jpg" width="230" height="150" alt="" />Red</div>--}}
+            {{--<div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/joey.jpg" width="230" height="150" alt="" />Joey</div>--}}
+            {{--<div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/red.jpg" width="230" height="150" alt="" />Red</div>--}}
+            {{--<div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/joey.jpg" width="230" height="150" alt="" />Joey</div>--}}
+            {{--<div class="col-md-2 col-sm-4 col-xs-6 mrgn-20-top-btm"><img class="img-responsive center-block" src="assets/images/bartenders/red.jpg" width="230" height="150" alt="" />Red</div>--}}
+        {{--</div>--}}
+        {{--<!-- /.Sponsors List -->--}}
+    {{--</div>--}}
+    {{--<!-- /.container -->--}}
+{{--</section>--}}
 <!-- /.Section Sponsors -->
 
 {{--<!-- Section Latest News -->--}}
@@ -514,39 +518,39 @@
 {{--</section>--}}
 {{--<!-- /.Section Latest News -->--}}
 
-<!-- Section Newsletter -->
-<section id="newsletter">
-    <div class="container">
-        <!-- Title & Subtitle -->
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h2 class="white text-center">Newsletter</h2>
-                    <p class="subtitle white text-center">Sign up and stay in the loop</p>
-                </div>
-            </div>
-        </div>
-        <!-- /.Title & Subtitle -->
+{{--<!-- Section Newsletter -->--}}
+{{--<section id="newsletter">--}}
+    {{--<div class="container">--}}
+        {{--<!-- Title & Subtitle -->--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-md-12">--}}
+                {{--<div class="section-title">--}}
+                    {{--<h2 class="white text-center">Newsletter</h2>--}}
+                    {{--<p class="subtitle white text-center">Sign up and stay in the loop</p>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<!-- /.Title & Subtitle -->--}}
 
-        <!-- Newsletter Form -->
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1 text-center">
-                <form class="form-inline" id="newsletterForm" novalidate style="visibility: visible; animation-name: zoomIn;">
-                    <div class="form-group">
-                        <label class="sr-only" for="Email"></label>
-                        <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address." aria-invalid="false">
-                        <p class="help-block text-danger"></p>
-                    </div>
-                    <button type="submit" class="btn btn-main-color">Subscribe</button>
-                    <div id="success"></div>
-                </form>
-            </div>
-        </div>
-        <!-- /.Newsletter Form -->
-    </div>
-    <!-- /.container -->
-</section>
-<!-- /.Section Newsletter -->
+        {{--<!-- Newsletter Form -->--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-md-10 col-md-offset-1 text-center">--}}
+                {{--<form class="form-inline" id="newsletterForm" novalidate style="visibility: visible; animation-name: zoomIn;">--}}
+                    {{--<div class="form-group">--}}
+                        {{--<label class="sr-only" for="Email"></label>--}}
+                        {{--<input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address." aria-invalid="false">--}}
+                        {{--<p class="help-block text-danger"></p>--}}
+                    {{--</div>--}}
+                    {{--<button type="submit" class="btn btn-main-color">Subscribe</button>--}}
+                    {{--<div id="success"></div>--}}
+                {{--</form>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<!-- /.Newsletter Form -->--}}
+    {{--</div>--}}
+    {{--<!-- /.container -->--}}
+{{--</section>--}}
+{{--<!-- /.Section Newsletter -->--}}
 
 <!-- Section Location -->
 <section id="location">
