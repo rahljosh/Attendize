@@ -169,7 +169,8 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 text-center">
                 <!-- Speaker 01 -->
-                <div class="speaker-item"> <a href="/angels#spyke">
+                <div class="speaker-item">
+                    {{--<a href="/angels#spyke">--}}
                         <figure class="speaker accent-bg"> <img src="assets/media/angels/spyke-naugahyde.jpg" width="300" height="300" alt="Spyke Naugahyde" class="img-responsive center-block" />
                             <figcaption>
                                 <p class="text-uppercase accent">Spyke</p>
@@ -184,7 +185,8 @@
             </div>
             <div class="col-md-3 col-sm-6 text-center">
                 <!-- Speaker 03 -->
-                <div class="speaker-item"> <a href="/angels#annie">
+                <div class="speaker-item">
+                    {{--<a href="/angels#annie">--}}
                         <figure class="speaker accent-bg"> <img src="assets/media/angels/annie-rexia.jpg" width="300" height="300" alt="Annie Rexia" class="img-responsive center-block" />
                             <figcaption>
                                 <p class="text-uppercase accent">Annie</p>
@@ -199,7 +201,8 @@
             </div>
             <div class="col-md-3 col-sm-6 text-center">
                 <!-- Speaker 02 -->
-                <div class="speaker-item"> <a href="/angels#miss-jay">
+                <div class="speaker-item">
+                    {{--<a href="/angels#miss-jay">--}}
                         <figure class="speaker accent-bg"> <img src="assets/media/angels/miss-jay.jpg" width="300" height="300" alt="Miss Jay" class="img-responsive center-block" />
                             <figcaption>
                                 <p class="text-uppercase accent">Miss Jay</p>
@@ -214,7 +217,8 @@
             </div>
             <div class="col-md-3 col-sm-6 text-center">
                 <!-- Speaker 04 -->
-                <div class="speaker-item"> <a href="/angels#ashley">
+                <div class="speaker-item">
+                    {{--<a href="/angels#ashley">--}}
                         <figure class="speaker accent-bg"> <img src="assets/media/angels/ashley-liquor.jpg" width="300" height="300" alt="Speaker" class="img-responsive center-block" />
                             <figcaption>
                                 <p class="text-uppercase accent">Ashley</p>
@@ -229,7 +233,8 @@
             </div>
             <div class="col-md-3 col-sm-6 text-center">
                 <!-- Speaker 04 -->
-                <div class="speaker-item"> <a href="/angels#cassie">
+                <div class="speaker-item">
+                    {{--<a href="/angels#cassie">--}}
                         <figure class="speaker accent-bg"> <img src="assets/media/angels/cassie-st-john.jpg" width="300" height="300" alt="Speaker" class="img-responsive center-block" />
                             <figcaption>
                                 <p class="text-uppercase accent">Cassie</p>
