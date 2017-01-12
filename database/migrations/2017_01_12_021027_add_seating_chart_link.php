@@ -13,7 +13,7 @@ class AddSeatingChartLink extends Migration
     public function up()
     {
         Schema::table('events', function (Blueprint $table) {
-            $table->string('seating_chart')->default('drag_show_seating_chart.png');
+            $table->string('seating_chart')->default('drag-show-seating-chart.png');
         });
     }
 
