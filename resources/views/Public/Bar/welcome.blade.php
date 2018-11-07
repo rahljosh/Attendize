@@ -123,9 +123,7 @@
                             @endif
                         </div>
                         <footer>
-                            <div class="views"><i class="fa fa-eye"></i> {{ $event->stats->sum('views') }} </div>
-                            <div class="love"><i class="fa fa-credit-card"></i> {{ $event->tickets->sum('quantity_sold') }} </div>
-
+                          
                         </footer>
                     </div>
                     <!-- /.News Item 01 -->
