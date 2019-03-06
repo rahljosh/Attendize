@@ -20,7 +20,9 @@ class PagesController extends Controller
      */
     public function index()
     {
-        $events = Event::where('start_date','>=',Carbon::now())->get();
+        $events = Event::where('start_date','>=',Carbon::now())
+                        ->where('is_live','=',1)
+                        ->get();
 
         //return $event_stats;
         return view('/Public/Bar/welcome',compact('events'));
