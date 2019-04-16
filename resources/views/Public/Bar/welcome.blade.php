@@ -240,7 +240,7 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <p><span class="speaker-accent">Nikki  Naugahyde</span><br/>
+                    <p><span class="speaker-accent">Nikki Naugahyde</span><br/>
                         Pocatello, ID</p>
                 </div>
                 <!-- /.Speaker 04 -->
