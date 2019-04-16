@@ -233,7 +233,7 @@
                 <!-- Speaker 04 -->
                 <div class="speaker-item">
                     {{--<a href="/angels#nikki">--}}
-                        <figure class="speaker accent-bg"> <img src="assets/media/angels/nikki.jpg" width="300" height="300" alt="Speaker" class="img-responsive center-block" />
+                        <figure class="speaker accent-bg"> <img src="assets/media/angels/nikki.jpg" width="300" height="300" alt="Nikki" class="img-responsive center-block" />
                             <figcaption>
                                 <p class="text-uppercase accent">Nikki</p>
                                 <p>Naugahyde</p>
