@@ -181,7 +181,7 @@
                     <div class="col-sm-3">
                         <div class="speaker-item"> <a href="#">
                                 <figure class="speaker accent-bg"> <img src="assets/media/angels/nikki.jpg" width="500" height="500" alt="Nikki Naugahyde" class="img-responsive center-block" />
-                                    <figcaption>cassie
+                                    <figcaption>
                                         <p class="text-uppercase accent">Nikki</p>
                                         <p> Naugahyde</p>
                                     </figcaption>
@@ -197,7 +197,7 @@
                     </div>
                     <div class="col-sm-9">
                         <h2 class="accent"><i class="fa fa-star"></i> Nikki <strong>Naugahyde</strong></h2>
-                        <h3 class="talktitle">The ButterballDiva</h3>
+                        <h3 class="talktitle"></h3>
                         <hr class="border-light mrgn-30-top"/>
                         </div>
                 </div>
