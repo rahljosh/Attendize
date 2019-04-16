@@ -180,18 +180,16 @@
                 <div class="row">
                     <div class="col-sm-3">
                         <div class="speaker-item"> <a href="#">
-                                <figure class="speaker accent-bg"> <img src="assets/media/angels/cassie-st-john.jpg" width="500" height="500" alt="Speaker" class="img-responsive center-block" />
-                                    <figcaption>
-                                        <p class="text-uppercase accent">Cassie</p>
-                                        <p>St. John</p>
+                                <figure class="speaker accent-bg"> <img src="assets/media/angels/nikki.jpg" width="500" height="500" alt="Nikki Naugahyde" class="img-responsive center-block" />
+                                    <figcaption>cassie
+                                        <p class="text-uppercase accent">Nikki</p>
+                                        <p> Naugahyde</p>
                                     </figcaption>
                                 </figure>
                             </a>
                             <ul class="list-inline social-buttons">
-                                <li> <a class="fa fa-twitter fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                                <li> <a class="fa fa-linkedin fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                                <li> <a class="fa fa-google-plus fa-lg" href="https://www.facebook.com/designify.me"></a> </li>
-                                <li><a class="fa fa-link fa-lg" href="https://designify.me"></a> </li>
+                                <li> <a class="fa fa-facebook fa-lg" href="https://www.facebook.com/Lookmomimpretty/"></a> </li>
+
                             </ul>
                         </div>
                     </div>
