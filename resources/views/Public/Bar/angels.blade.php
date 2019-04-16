@@ -189,19 +189,17 @@
                             </a>
                             <ul class="list-inline social-buttons">
                                 <li> <a class="fa fa-facebook fa-lg" href="https://www.facebook.com/Lookmomimpretty/"></a> </li>
+                                <li> <a class="fa fa-instagram fa-lg" href="https://www.instagram.com/nikkinaugahyde/"></a> </li>
+
 
                             </ul>
                         </div>
                     </div>
                     <div class="col-sm-9">
-                        <h2 class="accent"><i class="fa fa-star"></i> Cassie <strong>St John</strong></h2>
-                        <h3 class="talktitle">The T&T Diva</h3>
+                        <h2 class="accent"><i class="fa fa-star"></i> Nikki <strong>Naugahyde</strong></h2>
+                        <h3 class="talktitle">The ButterballDiva</h3>
                         <hr class="border-light mrgn-30-top"/>
-                        <p class="lead accent">Nam bibendum ullamcorper leo gravida pretium. Curabitur consequat ante vitae velit mattis porttitor. </p>
-                        <p>Ut vel libero elementum dui lobortis convallis sed eu risus. Integer faucibus blandit sollicitudin. Cras varius mollis diam, vitae iaculis libero. Duis tincidunt, quam eu dictum faucibus, nisl enim tristique augue, id porttitor ante velit nec odio. Quisque ut ultrices elit.</p>
-                        <p>Sed pellentesque euismod justo, vitae maximus ligula. Donec elementum libero arcu, id interdum mauris posuere quis. In porta consequat rhoncus. Phasellus ut lobortis metus. Proin quis est in risus viverra pulvinar ut vel neque. Fusce non eros dui.</p>
-                        <p>Aenean justo diam, tincidunt sit amet ex vel, mollis imperdiet ligula. Nam eget fermentum ligula, tristique placerat mauris. Donec hendrerit pretium nisl, a imperdiet sapien congue eu. Duis iaculis urna mauris, non lobortis erat ullamcorper ac.</p>
-                    </div>
+                        </div>
                 </div>
                 <!-- /.Speaker 04 -->
 
