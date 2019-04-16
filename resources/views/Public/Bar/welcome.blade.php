@@ -217,7 +217,7 @@
                 <!-- Speaker 04 -->
                 <div class="speaker-item">
                     {{--<a href="/angels#ashley">--}}
-                        <figure class="speaker accent-bg"> <img src="assets/media/angels/ashley-liquor.jpg" width="300" height="300" alt="Speaker" class="img-responsive center-block" />
+                        <figure class="speaker accent-bg"> <img src="assets/media/angels/ashley-liquor.jpg" width="300" height="300" alt="Ashley" class="img-responsive center-block" />
                             <figcaption>
                                 <p class="text-uppercase accent">Ashley</p>
                                 <p>Liquor</p>
@@ -240,7 +240,7 @@
                             </figcaption>
                         </figure>
                     </a>
-                    <p><span class="speaker-accent">Nikki Naugahyde</span><br/>
+                    <p><span class="speaker-accent">Nikki  Naugahyde</span><br/>
                         Pocatello, ID</p>
                 </div>
                 <!-- /.Speaker 04 -->
