@@ -123,7 +123,7 @@
                             @endif
                         </div>
                         <footer>
-                          
+
                         </footer>
                     </div>
                     <!-- /.News Item 01 -->
@@ -225,23 +225,23 @@
                         </figure>
                     </a>
                     <p><span class="speaker-accent">Ashley Liquor</span><br/>
-                        Boise, ID</p>
+                        Pocatello, ID</p>
                 </div>
                 <!-- /.Speaker 04 -->
             </div>
             <div class="col-md-3 col-sm-6 text-center">
                 <!-- Speaker 04 -->
                 <div class="speaker-item">
-                    {{--<a href="/angels#cassie">--}}
-                        <figure class="speaker accent-bg"> <img src="assets/media/angels/cassie-st-john.jpg" width="300" height="300" alt="Speaker" class="img-responsive center-block" />
+                    {{--<a href="/angels#nikki">--}}
+                        <figure class="speaker accent-bg"> <img src="assets/media/angels/nikki.jpg" width="300" height="300" alt="Speaker" class="img-responsive center-block" />
                             <figcaption>
-                                <p class="text-uppercase accent">Cassie</p>
-                                <p>St. John</p>
+                                <p class="text-uppercase accent">Nikki</p>
+                                <p>Naugahyde</p>
                             </figcaption>
                         </figure>
                     </a>
-                    <p><span class="speaker-accent">Cassie St. John</span><br/>
-                        Boise, ID</p>
+                    <p><span class="speaker-accent">Nikki Naugahyde</span><br/>
+                        Pocatello, ID</p>
                 </div>
                 <!-- /.Speaker 04 -->
             </div>
