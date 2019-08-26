@@ -278,8 +278,8 @@
                 <div class="timeline-icon"> <i class="fa fa-beer fa-lg"></i> </div>
                 <div class="timeline-content">
                     <h2>Monday</h2>
-                    <p>Start the week off with Karaoke with Spyke! <br>$1.75 domestic drafts <br> Fill your Charley's mug with wells for $4.50 all night long</p>
-                    <span class="label label-main">Quarter Beers from 9-11 / Mug Wells $4.50</span> </div>
+                    <p>Trivia 9-11 followed by karaoke</p>
+                    <span class="label label-main">2 for $5 Montucky Cans</span> </div>
             </div>
             <!-- /.Timeline Item 01 -->
 
@@ -288,9 +288,9 @@
                 <div class="timeline-icon"> <i class="fa fa-glass fa-lg"></i></div>
                 <div class="timeline-content right">
                     <h2>Tuesday</h2>
-                    <p>After you finish your tacos, head down to Charley's for Trivia/Game Night stating at 9. <br>
-                       Enjoy $1.75 domestic drafts all night long and after trivia, stick around for Karaoke with Spyke.</p>
-                    <span class="label label-main">$2.25 Wells from 10-12  / $1.75 drafts</span> </div>
+                    <p>After you finish your tacos, head down to Charley's for karaoke all  night!  <br>
+                       Enjoy $1.75 domestic pints.</p>
+                    <span class="label label-main">$1.75 drafts</span> </div>
             </div>
             <!-- /.Timeline Item 02 -->
 
@@ -299,8 +299,8 @@
                 <div class="timeline-icon"> <i class="fa fa-star fa-lg"></i> </div>
                 <div class="timeline-content">
                     <h2>Wednesday</h2>
-                    <p>End your hump day with Drag Bingo hosted by Spyke. Enjoy the game, laughs and $1.75 domestic drafts $1.75 and $2.25 wells all night long!    </p>
-                    <span class="label label-main">$2.25 Wells / $1.75 Drafts</span> </div>
+                    <p>End your hump day with Bingo!. Enjoy the game, laughs and various specials!     </p>
+                    <span class="label label-main">Various drink specials</span> </div>
             </div>
             <!-- /.Timeline Item 03 -->
 
@@ -309,7 +309,7 @@
                 <div class="timeline-icon"> <i class="fa fa-glass fa-lg"></i></div>
                 <div class="timeline-content right">
                     <h2>Thursday</h2>
-                    <p>It's time to laugh!  Coors Light / Miller Comedy Night starts at 9!</p>
+                    <p>Karaoke all night long!</p>
                     <span class="label label-main">Random Specials! Ask a Bartender</span> </div>
             </div>
             <!-- /.Timeline Item 04 -->
