@@ -119,11 +119,7 @@
     </div>
     <!-- /.container -->
     <!-- Speaker CTA Button -->
-    <div class="row">
-        <div class="col-md-12">
-            <p class="mrgn-50-top text-center"><a href="/o/1" class="btn btn-main-ghost">View All Upcoming Events</a></p>
-        </div>
-    </div>
+  
     <!-- /.Speaker CTA Button -->
 </section>
 <!-- /.Events -->
