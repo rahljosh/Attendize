@@ -87,40 +87,21 @@
 
         <!-- CTA Boxes -->
         <div class="row">
-            @foreach($events as $event)
+        
                 <div class="col-sm-4">
                     <!-- News Item 01 -->
                     <div class="news-item">
                         <div class="image">
-                            <div class="date"><span class="day">{{  $event->start_date->format('j')}} </span><span class="month">{{  $event->start_date->format('M')}}</span></div>
-                            <img src="{{  $event->images->first()['image_path'] }}" class="img-responsive center-block" alt="Get Your Tickets"></div>
+                            <div class="date"><span class="day">July 25, 2020 </span><span class="month">JUL</span></div>
+                            <img src="assets/media/shows/xxx.png" class="img-responsive center-block" alt="Get Your Tickets"></div>
                         <div class="details">
-                            <h3>{{  $event->title }}</h3>
-                            <h4>{{ $event->start_date->format('l -  F jS') }} </h4>
-                            <span property="startDate" content="{{ $event->start_date->toIso8601String() }}">
-                                {{ $event->start_date->format('g:i A') }}
-                            </span>
-                                -
-                            <span property="endDate" content="{{ $event->end_date->toIso8601String() }}">
-                                 @if($event->start_date->diffInHours($event->end_date) <= 12)
-                                    {{ $event->end_date->format('g:i A') }}
-                                @else
-                                    {{ $event->end_date->format('g:i A') }}
-                                @endif
-                            </span>
-                            <p> {{ $event->description }}</p>
-                            @if($event->happening_now)
-                                This event is happening Now
-                            @else
-                                <span id="countdown"></span>
-                            @endif
-                            @if($event->start_date->isPast())
-                                <div class="alert alert-boring">
-                                    This event has {{($event->end_date->isFuture() ? 'already started' : 'ended')}}.
-                                </div>
-                            @else
-                                <p><a href="{{ $event->event_url }}" class="btn btn-main-ghost btn-block">Tickets</a></p>
-                            @endif
+                            <h3>XXX</h3>
+                            <h4>July 25 </h4>
+                           
+                            <p> The show we've been waiting a LONG time for!</p>
+                         
+                                <p><a href="https://clubcharleys.simpletix.com/e/56055" class="btn btn-main-ghost btn-block">Tickets</a></p>
+                         
                         </div>
                         <footer>
 
