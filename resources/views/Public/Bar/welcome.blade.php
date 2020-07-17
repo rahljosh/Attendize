@@ -109,11 +109,6 @@
                     </div>
                     <!-- /.News Item 01 -->
                 </div>
-
-
-
-
-            @endforeach
         </div>
         <!-- /.CTA Boxes -->
     </div>
