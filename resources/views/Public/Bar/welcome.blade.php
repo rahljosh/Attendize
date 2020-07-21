@@ -92,7 +92,7 @@
                     <!-- News Item 01 -->
                     <div class="news-item">
                         <div class="image">
-                            <div class="date"><span class="day">July 25, 2020 </span><span class="month">JUL</span></div>
+                            <div class="date"><span class="day">25 </span><span class="month">JUL</span></div>
                             <img src="assets/media/shows/xxx.png" class="img-responsive center-block" alt="Get Your Tickets"></div>
                         <div class="details">
                             <h3>XXX</h3>
@@ -110,6 +110,30 @@
                     <!-- /.News Item 01 -->
                 </div>
         </div>
+        <div class="row">
+        
+        <div class="col-sm-4">
+            <!-- News Item 01 -->
+            <div class="news-item">
+                <div class="image">
+                    <div class="date"><span class="day">1 </span><span class="month">AUG</span></div>
+                    <img src="assets/media/shows/xxx.png" class="img-responsive center-block" alt="Get Your Tickets"></div>
+                <div class="details">
+                    <h3>XXX</h3>
+                    <h4>Aug 1 </h4>
+                   
+                    <p> Round 2!</p>
+                 
+                        <p><a href="https://clubcharleys.simpletix.com/e/56192" class="btn btn-main-ghost btn-block">Tickets</a></p>
+                 
+                </div>
+                <footer>
+
+                </footer>
+            </div>
+            <!-- /.News Item 01 -->
+        </div>
+</div>
         <!-- /.CTA Boxes -->
     </div>
     <!-- /.container -->
