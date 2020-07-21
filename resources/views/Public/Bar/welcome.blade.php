@@ -109,12 +109,8 @@
                     </div>
                     <!-- /.News Item 01 -->
                 </div>
-        </div>
-        <div class="row">
-        
-        <div class="col-sm-4">
-            <!-- News Item 01 -->
-            <div class="news-item">
+                <div class="col-sm-4">
+                <div class="news-item">
                 <div class="image">
                     <div class="date"><span class="day">1 </span><span class="month">AUG</span></div>
                     <img src="assets/media/shows/xxx.png" class="img-responsive center-block" alt="Get Your Tickets"></div>
@@ -131,8 +127,8 @@
 
                 </footer>
             </div>
-            <!-- /.News Item 01 -->
         </div>
+       
 </div>
         <!-- /.CTA Boxes -->
     </div>
