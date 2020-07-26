@@ -88,27 +88,7 @@
         <!-- CTA Boxes -->
         <div class="row">
         
-                <div class="col-sm-4">
-                    <!-- News Item 01 -->
-                    <div class="news-item">
-                        <div class="image">
-                            <div class="date"><span class="day">25 </span><span class="month">JUL</span></div>
-                            <img src="assets/media/shows/xxx.png" class="img-responsive center-block" alt="Get Your Tickets"></div>
-                        <div class="details">
-                            <h3>XXX</h3>
-                            <h4>July 25 </h4>
-                           
-                            <p> The show we've been waiting a LONG time for!</p>
-                         
-                                <p><a href="https://clubcharleys.simpletix.com/e/56055" class="btn btn-main-ghost btn-block">Tickets</a></p>
-                         
-                        </div>
-                        <footer>
-
-                        </footer>
-                    </div>
-                    <!-- /.News Item 01 -->
-                </div>
+              
                 <div class="col-sm-4">
                 <div class="news-item">
                 <div class="image">
@@ -127,6 +107,7 @@
 
                 </footer>
             </div>
+     
         </div>
        
 </div>
