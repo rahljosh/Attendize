@@ -90,32 +90,38 @@
         
               
                 <div class="col-sm-4">
-                <div class="news-item">
-                <div class="image">
-                    <div class="date"><span class="day">1 </span><span class="month">AUG</span></div>
-                    <img src="assets/media/shows/xxx.png" class="img-responsive center-block" alt="Get Your Tickets"></div>
-                <div class="details">
-                    <h3>XXX</h3>
-                    <h4>Aug 1 </h4>
-                   
-                    <p> Round 2!</p>
-                 
-                        <p><a href="https://clubcharleys.simpletix.com/e/56192" class="btn btn-main-ghost btn-block">Tickets</a></p>
-                 
+                    <div class="news-item">
+                        <div class="image">
+                            <div class="date"><span class="day">1 </span><span class="month">AUG</span></div>
+                            <img src="assets/media/shows/xxx.png" class="img-responsive center-block" alt="Get Your Tickets">
+                        </div>
+                        <div class="details">
+                            <h3>XXX</h3>
+                            <h4>Aug 1 </h4>
+                        
+                            <p> Round 2!</p>
+                        
+                                <p><a href="https://clubcharleys.simpletix.com/e/56192" class="btn btn-main-ghost btn-block">Tickets</a></p>
+                        
+                        </div>
+                    </div> 
                 </div>
                 <div class="col-sm-4">
-                <div class="news-item">
-                <div class="image">
-                    <div class="date"><span class="day">1 </span><span class="month">AUG</span></div>
-                    <img src="assets/media/shows/we-rise-up.png" class="img-responsive center-block" alt="Get Your Tickets"></div>
-                <div class="details">
-                    <h3>We Rise Up</h3>
-                    <h4>Aug 8 </h4>
-                   
-                    <p> Crystilll Bluewater Sapphire Presents We Rise Up</p>
-                 
-                        <p><a href="https://clubcharleys.simpletix.com/e/56419" class="btn btn-main-ghost btn-block">Tickets</a></p>
-                 
+                    <div class="news-item">
+                        <div class="image">
+                            <div class="date"><span class="day">1 </span><span class="month">AUG</span></div>
+                            <img src="assets/media/shows/we-rise-up.png" class="img-responsive center-block" alt="Get Your Tickets">
+                        </div>
+                        <div class="details">
+                            <h3>We Rise Up</h3>
+                            <h4>Aug 8 </h4>
+                        
+                            <p> Crystilll Bluewater Sapphire Presents We Rise Up</p>
+                        
+                                <p><a href="https://clubcharleys.simpletix.com/e/56419" class="btn btn-main-ghost btn-block">Tickets</a></p>
+                        
+                        </div>
+                    </div>
                 </div>
                 <footer>
 
