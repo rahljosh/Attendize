@@ -25,7 +25,9 @@ class PagesController extends Controller
                         ->get();
 
         //return $event_stats;
-        return view('/Public/Bar/welcome',compact('events'));
+        //return view('/Public/Bar/welcome',compact('events'));
+
+        return Redirect::to('https://clubcharleys.simpletix.com');
     }
 
     /**
